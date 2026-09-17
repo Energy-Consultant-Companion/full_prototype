@@ -1,0 +1,390 @@
+(
+    <div className="[font-synthesis:none] wrap-anywhere text-xs leading-md flex overflow-clip [background-color:var(--color-surface)] antialiased">
+      <div className="flex flex-col w-rail h-[900px] shrink-0 pt-[20px] pb-md px-md [background-color:var(--color-surface-sunken)] border-r border-r-solid border-r-border">
+        <div className="flex items-center justify-between pb-[18px] px-xs">
+          <div className="flex items-center gap-[10px]">
+            <div className="[font-family:var(--font-display)] text-base tracking-tight font-semibold leading-[18px] [color:var(--color-fg)]">
+              ENSERA
+            </div>
+          </div>
+          <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+            <rect x="1.5" y="2.5" width="13" height="11" rx="2" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.3" />
+            <path d="M10 2.5v11" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.3" />
+          </svg>
+        </div>
+        <div className="flex items-center h-[38px] shrink-0 px-[10px] rounded-md gap-xs [box-shadow:#12161B0F_0px_1px_2px] [background-color:var(--color-surface)] border border-solid border-border">
+          <svg width="15" height="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+            <circle cx="7.2" cy="7.2" r="4.5" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.3" />
+            <path d="M10.6 10.6L13.6 13.6" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.3" strokeLinecap="round" />
+          </svg>
+          <div className="grow basis-[0%] [font-family:var(--font-sans)] text-sm leading-md [color:var(--color-fg-subtle)]">
+            Suchen oder fragen
+          </div>
+          <div className="shrink-0 [font-family:var(--font-mono)] text-2xs leading-[14px] [color:var(--color-fg-subtle)]">
+            ⌘K
+          </div>
+        </div>
+        <div className="flex flex-col pt-[26px] gap-3xs">
+          <div className="flex flex-col gap-3xs">
+            <div className="pb-[10px] px-xs">
+              <div className="[font-family:var(--font-mono)] text-2xs tracking-caps leading-[14px] [color:var(--color-fg-subtle)]">
+                ARBEIT
+              </div>
+            </div>
+            <div className="flex items-center h-[36px] shrink-0 px-[10px] rounded-md gap-sm">
+              <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <rect x="2.4" y="2.4" width="8.7" height="8.7" rx="3" fill="var(--color-brand)" />
+                <rect x="12.9" y="2.4" width="8.7" height="8.7" rx="3" fill="#AEB9F5" />
+                <rect x="2.4" y="12.9" width="8.7" height="8.7" rx="3" fill="#AEB9F5" />
+                <rect x="12.9" y="12.9" width="8.7" height="8.7" rx="3" fill="var(--color-brand)" />
+              </svg>
+              <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14px] leading-[18px] [color:var(--color-fg-muted)]">
+                Überblick
+              </div>
+              <div className="w-lg shrink-0" />
+            </div>
+            <div className="flex items-center h-[36px] shrink-0 px-[10px] rounded-md gap-sm">
+              <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M2.4 6.2a3.2 3.2 0 0 1 3.2-3.2h3.7a2.1 2.1 0 0 1 1.63.78l1.57 1.94h6.3a3.2 3.2 0 0 1 3.2 3.2v9.3a3.2 3.2 0 0 1-3.2 3.2H5.6a3.2 3.2 0 0 1-3.2-3.2z" fill="#2FC98A" />
+                <path d="M2.4 15.2a3.2 3.2 0 0 1 3.2-3.2h12.8a3.2 3.2 0 0 1 3.2 3.2v3a3.2 3.2 0 0 1-3.2 3.2H5.6a3.2 3.2 0 0 1-3.2-3.2z" fill="#B4EBD2" stroke="#FFFFFF" strokeWidth="1.8" />
+              </svg>
+              <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14px] leading-[18px] [color:var(--color-fg-muted)]">
+                Fälle
+              </div>
+              <div className="w-lg shrink-0 text-right [font-family:var(--font-mono)] text-2xs leading-[14px] flex justify-end flex-wrap [color:var(--color-fg-subtle)]">
+                12
+              </div>
+            </div>
+            <div className="flex items-center h-[36px] shrink-0 px-[10px] rounded-md gap-sm">
+              <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <rect x="2.4" y="2.4" width="19.2" height="19.2" rx="5.8" fill="#FBD8B9" />
+                <path d="M6.9 12.2 10.3 15.5 17.1 7.9" fill="none" stroke="#F5A05A" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14px] leading-[18px] [color:var(--color-fg-muted)]">
+                Nächste Schritte
+              </div>
+              <div className="w-lg shrink-0 text-right [font-family:var(--font-mono)] text-2xs leading-[14px] flex justify-end flex-wrap [color:var(--color-fg-subtle)]">
+                3
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col pt-lg gap-3xs">
+            <div className="pb-[10px] px-xs">
+              <div className="[font-family:var(--font-mono)] text-2xs tracking-caps leading-[14px] [color:var(--color-fg-subtle)]">
+                PRÜFEN
+              </div>
+            </div>
+            <div className="flex items-center h-[36px] shrink-0 px-[10px] rounded-md gap-sm">
+              <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M4 5.6a3 3 0 0 1 3-3h6.6v4.5a2.4 2.4 0 0 0 2.4 2.4H20v9a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3z" fill="#F9AFCE" />
+                <path d="M14.2 2.7 20.1 8.6a1 1 0 0 1-.7 1.7h-3a2.4 2.4 0 0 1-2.4-2.4V3.4a1 1 0 0 1 .2-.7z" fill="#E84490" />
+                <rect x="7.4" y="12.4" width="9" height="2.4" rx="1.2" fill="#E84490" />
+                <rect x="7.4" y="16.3" width="5.8" height="2.4" rx="1.2" fill="#E84490" />
+              </svg>
+              <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14px] leading-[18px] [color:var(--color-fg-muted)]">
+                Unterlagen
+              </div>
+              <div className="w-lg shrink-0 text-right [font-family:var(--font-mono)] text-2xs leading-[14px] flex justify-end flex-wrap [color:var(--color-fg-subtle)]">
+                5
+              </div>
+            </div>
+            <div className="flex items-center h-[36px] shrink-0 px-[10px] rounded-md gap-sm">
+              <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M12 2.9 20.2 6.1v6.1c0 4.3-3.2 7.8-8.2 9-5-1.2-8.2-4.7-8.2-9V6.1z" fill="#CFBCFA" stroke="#CFBCFA" strokeWidth="2.6" strokeLinejoin="round" />
+                <path d="M12 7.6 16.6 9.4v3.1c0 2.4-1.8 4.4-4.6 5.1-2.8-.7-4.6-2.7-4.6-5.1V9.4z" fill="#8B5CF0" stroke="#8B5CF0" strokeWidth="2.2" strokeLinejoin="round" />
+              </svg>
+              <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14px] leading-[18px] [color:var(--color-fg-muted)]">
+                Förderung
+              </div>
+              <div className="flex items-center justify-center w-lg h-[18px] shrink-0 rounded-xs [background-color:var(--color-brand)]">
+                <div className="[font-family:var(--font-mono)] text-2xs leading-[14px] [color:var(--color-brand-fg)]">
+                  2
+                </div>
+              </div>
+            </div>
+            <div className="items-center flex shrink-0 h-[36px] px-[10px] rounded-md gap-sm [box-shadow:#12161B0F_0px_1px_2px] [background-color:var(--color-surface)] border border-solid border-border">
+              <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <rect x="3" y="2.8" width="18" height="18.4" rx="4.2" fill="#D9BE9C" />
+                <path d="M3 7a4.2 4.2 0 0 1 4.2-4.2h2.6v18.4H7.2A4.2 4.2 0 0 1 3 17z" fill="#96602F" />
+                <path d="M13 2.8h3.6v8.8l-1.8-1.7-1.8 1.7z" fill="#96602F" />
+              </svg>
+              <div className="basis-[0%] grow [font-family:var(--font-sans)] text-[14px] leading-[18px] font-medium [color:var(--color-fg)]">
+                Regulierungen
+              </div>
+              <div className="shrink-0 [font-family:var(--font-mono)] text-2xs leading-[14px] text-right w-lg flex justify-end flex-wrap [color:var(--color-fg-muted)]">
+                9
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col pt-lg gap-3xs">
+            <div className="pb-[10px] px-xs">
+              <div className="[font-family:var(--font-mono)] text-2xs tracking-caps leading-[14px] [color:var(--color-fg-subtle)]">
+                KONTAKT
+              </div>
+            </div>
+            <div className="flex items-center h-[36px] shrink-0 px-[10px] rounded-md gap-sm">
+              <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <rect x="2.2" y="4.8" width="19.6" height="15" rx="4.4" fill="#ADE1F6" />
+                <path d="M2.4 7.4A4.4 4.4 0 0 1 6.6 4.8h10.8a4.4 4.4 0 0 1 4.2 2.6l-7.8 5.9a3.6 3.6 0 0 1-3.6 0z" fill="#2BB6E8" />
+              </svg>
+              <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14px] leading-[18px] [color:var(--color-fg-muted)]">
+                Anfragen
+              </div>
+              <div className="flex items-center justify-center w-lg h-[18px] shrink-0 rounded-xs [background-color:var(--color-brand)]">
+                <div className="[font-family:var(--font-mono)] text-2xs leading-[14px] [color:var(--color-brand-fg)]">
+                  2
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center h-[36px] shrink-0 px-[10px] rounded-md gap-sm">
+              <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <rect x="7.2" y="2.2" width="14.8" height="11.8" rx="4.4" fill="#17B3B0" />
+                <path d="M6.5 8.4H12.7A4.6 4.6 0 0 1 17.3 13V15.2A4.6 4.6 0 0 1 12.7 19.8H9.9L5.8 22.6V19.5A4.6 4.6 0 0 1 1.9 15V13A4.6 4.6 0 0 1 6.5 8.4Z" fill="#A6E4E3" stroke="#FFFFFF" strokeWidth="1.8" strokeLinejoin="round" />
+              </svg>
+              <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14px] leading-[18px] [color:var(--color-fg-muted)]">
+                Fragen
+              </div>
+              <div className="flex items-center justify-center w-lg h-[18px] shrink-0 rounded-xs [background-color:var(--color-brand)]">
+                <div className="[font-family:var(--font-mono)] text-2xs leading-[14px] [color:var(--color-brand-fg)]">
+                  3
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex items-center mt-auto px-2xs gap-[6px]">
+          <div className="flex items-center justify-center shrink-0 rounded-md size-xl">
+            <svg width="15" height="15" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+              <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.8" strokeLinejoin="round" />
+              <circle cx="12" cy="12" r="3" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.8" />
+            </svg>
+          </div>
+        </div>
+        <div className="flex items-center h-[52px] mt-[14px] px-sm rounded-lg gap-2xs shrink-0 [box-shadow:#12161B0F_0px_1px_2px] [background-color:var(--color-surface)] border border-solid border-border">
+          <div className="w-[28px] h-[28px] flex items-center justify-center rounded-[calc(infinity*1px)] shrink-0 [background-color:var(--color-fg)]">
+            <div className="flex-1 rounded-[calc(infinity*1px)] self-stretch bg-cover bg-position-[50%]" style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01KYW948ZCHHGYZSKYHX8FC4E5/01M2GQN4CR7RWW9Y5PHMVV4N85.png)' }} />
+          </div>
+          <div className="flex flex-col grow basis-[0%] gap-px px-[5px]">
+            <div className="[font-family:var(--font-sans)] text-sm font-medium leading-md [color:var(--color-fg)]">
+              Katrin Held
+            </div>
+          </div>
+          <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+            <path d="M4.6 5.6L7 3.2l2.4 2.4M4.6 8.4L7 10.8l2.4-2.4" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </div>
+      </div>
+      <div className="flex flex-col w-[1176px] h-[900px] shrink-0 items-center pt-[36px] px-[40px] [background-color:var(--color-surface-sunken)]" style={{ backgroundImage: 'linear-gradient(in oklab 180deg, oklab(100% 0 0) 0%, oklab(100% 0 0 / 55%) 24%, oklab(100% 0 0 / 0%) 46%)' }}>
+        <div className="flex flex-col w-[1096px]">
+          <div className="flex w-[1096px] justify-between items-start pb-[26px]">
+            <div className="flex flex-col w-[859px] h-[63px] shrink-0">
+              <div className="w-[780px] [font-family:var(--font-display)] pt-sm">
+                <div className="[font-family:var(--font-display)] text-2xl tracking-tight leading-[40px] font-semibold [color:var(--color-fg)]">
+                  Regulierungsänderungen
+                </div>
+              </div>
+              <div className="w-[672px] [font-family:var(--font-sans)] pt-[14px] h-3xl" />
+            </div>
+            <div className="flex shrink-0 pt-3xs gap-xs">
+              <div className="flex items-center h-xl pr-[11px] pl-[13px] rounded-full gap-[7px] [box-shadow:#12161B0F_0px_1px_3px] [background-color:var(--color-surface)] border border-solid border-border-subtle">
+                <div className="[font-family:var(--font-sans)] text-sm leading-[17px] inline-block font-medium [color:var(--color-fg-muted)]">
+                  Alle Regelwerke
+                </div>
+                <svg width="12" height="12" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                  <path d="M6 9.5L12 15.5L18 9.5" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </div>
+              <div className="flex items-center h-xl pr-[11px] pl-[13px] rounded-full gap-[7px] [box-shadow:#12161B0F_0px_1px_3px] [background-color:var(--color-surface)] border border-solid border-border-subtle">
+                <div className="[font-family:var(--font-sans)] text-sm leading-[17px] inline-block font-medium [color:var(--color-fg-muted)]">
+                  Seit 1. Juli
+                </div>
+                <svg width="12" height="12" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                  <path d="M6 9.5L12 15.5L18 9.5" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col w-[1096px]">
+            <div className="flex w-[1096px] justify-between items-center pb-[6px] border-b border-b-solid border-b-border">
+              <div className="[font-family:var(--font-mono)] text-[10.5px] tracking-caps leading-[14px] inline-block [color:var(--color-fg)]">
+                BETRIFFT IHRE FÄLLE
+              </div>
+              <div className="[font-family:var(--font-mono)] text-[10.5px] tracking-caps leading-[14px] inline-block [color:var(--color-fg-subtle)]">
+                3 VON 9
+              </div>
+            </div>
+            <div className="flex w-[1096px] py-md gap-[40px] justify-between border-b border-b-solid border-b-border-subtle">
+              <div className="flex flex-col grow basis-[0%] max-w-[672px]">
+                <div className="flex items-center gap-xs">
+                  <div className="[font-family:var(--font-mono)] text-2xs tracking-caps leading-[14px] inline-block [color:var(--color-fg-muted)]">
+                    07.08. · BAFA EBW NR. 3.2
+                  </div>
+                  <div className="[font-family:var(--font-mono)] text-2xs leading-[14px] inline-block [color:var(--color-border-strong)]">
+                    ·
+                  </div>
+                  <div className="[font-family:var(--font-mono)] text-2xs tracking-caps leading-[14px] inline-block [color:var(--color-feedback-error)]">
+                    GEÄNDERT
+                  </div>
+                </div>
+                <div className="[font-family:var(--font-sans)] pt-xs">
+                  <div className="[font-family:var(--font-sans)] text-[16px] tracking-tight leading-lg font-medium [color:var(--color-fg)]">
+                    Der Zuschuss für die Beratung fällt von 80 auf 50 Prozent.
+                  </div>
+                </div>
+                <div className="w-[660px] [font-family:var(--font-sans)] pt-[5px]">
+                  <div className="[font-family:var(--font-sans)] text-[14.5px] leading-lg [color:var(--color-fg-muted)]">
+                    Der Höchstbetrag bleibt bei 1.300 € je Beratung. Honorarvereinbarungen, die noch mit 80 Prozent kalkuliert sind, müssen vor der nächsten Rechnung angepasst werden.
+                  </div>
+                </div>
+              </div>
+              <div className="flex w-[200px] shrink-0 justify-end pt-px">
+                <div className="flex items-center h-[30px] pr-[13px] pl-[10px] rounded-full gap-xs [background-color:var(--color-surface)] border border-solid border-border">
+                  <svg width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', width: '16px', height: '16px' }}>
+                    <path d="M2.4 6.2a3.2 3.2 0 0 1 3.2-3.2h3.7a2.1 2.1 0 0 1 1.63.78l1.57 1.94h6.3a3.2 3.2 0 0 1 3.2 3.2v9.3a3.2 3.2 0 0 1-3.2 3.2H5.6a3.2 3.2 0 0 1-3.2-3.2z" fill="#2FC98A" />
+                    <path d="M2.4 15.2a3.2 3.2 0 0 1 3.2-3.2h12.8a3.2 3.2 0 0 1 3.2 3.2v3a3.2 3.2 0 0 1-3.2 3.2H5.6a3.2 3.2 0 0 1-3.2-3.2z" fill="#B4EBD2" stroke="#FFFFFF" strokeWidth="1.8" />
+                  </svg>
+                  <div className="[font-family:var(--font-sans)] text-[12.5px] leading-[17px] inline-block font-medium [color:var(--color-fg)]">
+                    Drei Beratungen
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex w-[1096px] py-md gap-[40px] justify-between border-b border-b-solid border-b-border-subtle">
+              <div className="flex flex-col grow basis-[0%] max-w-[672px]">
+                <div className="flex items-center gap-xs">
+                  <div className="[font-family:var(--font-mono)] text-2xs tracking-caps leading-[14px] inline-block [color:var(--color-fg-muted)]">
+                    01.09. · KFW 458 NR. 2.3
+                  </div>
+                  <div className="[font-family:var(--font-mono)] text-2xs leading-[14px] inline-block [color:var(--color-border-strong)]">
+                    ·
+                  </div>
+                  <div className="[font-family:var(--font-mono)] text-2xs tracking-caps leading-[14px] inline-block [color:var(--color-brand)]">
+                    NEU
+                  </div>
+                </div>
+                <div className="[font-family:var(--font-sans)] pt-xs">
+                  <div className="[font-family:var(--font-sans)] text-[16px] tracking-tight leading-lg font-medium [color:var(--color-fg)]">
+                    Die Heizlastberechnung wird vor Inbetriebnahme Pflicht.
+                  </div>
+                </div>
+                <div className="w-[660px] [font-family:var(--font-sans)] pt-[5px]">
+                  <div className="[font-family:var(--font-sans)] text-[14.5px] leading-lg [color:var(--color-fg-muted)]">
+                    Gilt für alle Anträge ab dem 1. September. Bei Yildirim und Bauer steht der Nachweis noch aus — beide Einbautermine liegen nach dem Stichtag.
+                  </div>
+                </div>
+              </div>
+              <div className="flex w-[200px] shrink-0 justify-end pt-px">
+                <div className="flex items-center h-[30px] pr-[13px] pl-[10px] rounded-full gap-xs [background-color:var(--color-surface)] border border-solid border-border">
+                  <svg width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', width: '16px', height: '16px' }}>
+                    <path d="M2.4 6.2a3.2 3.2 0 0 1 3.2-3.2h3.7a2.1 2.1 0 0 1 1.63.78l1.57 1.94h6.3a3.2 3.2 0 0 1 3.2 3.2v9.3a3.2 3.2 0 0 1-3.2 3.2H5.6a3.2 3.2 0 0 1-3.2-3.2z" fill="#2FC98A" />
+                    <path d="M2.4 15.2a3.2 3.2 0 0 1 3.2-3.2h12.8a3.2 3.2 0 0 1 3.2 3.2v3a3.2 3.2 0 0 1-3.2 3.2H5.6a3.2 3.2 0 0 1-3.2-3.2z" fill="#B4EBD2" stroke="#FFFFFF" strokeWidth="1.8" />
+                  </svg>
+                  <div className="[font-family:var(--font-sans)] text-[12.5px] leading-[17px] inline-block font-medium [color:var(--color-fg)]">
+                    Zwei Beratungen
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex w-[1096px] py-md gap-[40px] justify-between">
+              <div className="flex flex-col grow basis-[0%] max-w-[672px]">
+                <div className="flex items-center gap-xs">
+                  <div className="[font-family:var(--font-mono)] text-2xs tracking-caps leading-[14px] inline-block [color:var(--color-fg-muted)]">
+                    22.07. · BEG EM NR. 5.4
+                  </div>
+                  <div className="[font-family:var(--font-mono)] text-2xs leading-[14px] inline-block [color:var(--color-border-strong)]">
+                    ·
+                  </div>
+                  <div className="[font-family:var(--font-mono)] text-2xs tracking-caps leading-[14px] inline-block [color:var(--color-severity-inkonsistent)]">
+                    FRIST
+                  </div>
+                </div>
+                <div className="[font-family:var(--font-sans)] pt-xs">
+                  <div className="[font-family:var(--font-sans)] text-[16px] tracking-tight leading-lg font-medium [color:var(--color-fg)]">
+                    Der Verwendungsnachweis muss binnen 36 statt 48 Monaten vorliegen.
+                  </div>
+                </div>
+                <div className="w-[660px] [font-family:var(--font-sans)] pt-[5px]">
+                  <div className="[font-family:var(--font-sans)] text-[14.5px] leading-lg [color:var(--color-fg-muted)]">
+                    Die verkürzte Frist gilt rückwirkend für Zusagen ab 2023. Bei Petersen endet sie dadurch schon am 14. November.
+                  </div>
+                </div>
+              </div>
+              <div className="flex w-[200px] shrink-0 justify-end pt-px">
+                <div className="flex items-center h-[30px] pr-[13px] pl-[10px] rounded-full gap-xs [background-color:var(--color-surface)] border border-solid border-border">
+                  <svg width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', width: '16px', height: '16px' }}>
+                    <path d="M2.4 6.2a3.2 3.2 0 0 1 3.2-3.2h3.7a2.1 2.1 0 0 1 1.63.78l1.57 1.94h6.3a3.2 3.2 0 0 1 3.2 3.2v9.3a3.2 3.2 0 0 1-3.2 3.2H5.6a3.2 3.2 0 0 1-3.2-3.2z" fill="#2FC98A" />
+                    <path d="M2.4 15.2a3.2 3.2 0 0 1 3.2-3.2h12.8a3.2 3.2 0 0 1 3.2 3.2v3a3.2 3.2 0 0 1-3.2 3.2H5.6a3.2 3.2 0 0 1-3.2-3.2z" fill="#B4EBD2" stroke="#FFFFFF" strokeWidth="1.8" />
+                  </svg>
+                  <div className="[font-family:var(--font-sans)] text-[12.5px] leading-[17px] inline-block font-medium [color:var(--color-fg)]">
+                    Eine Beratung
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col w-[1096px] pt-[26px]">
+            <div className="flex w-[1096px] justify-between items-center pb-[6px] border-b border-b-solid border-b-border">
+              <div className="[font-family:var(--font-mono)] text-[10.5px] tracking-caps leading-[14px] inline-block [color:var(--color-fg)]">
+                ZUR KENNTNIS
+              </div>
+              <div className="[font-family:var(--font-mono)] text-[10.5px] tracking-caps leading-[14px] inline-block [color:var(--color-fg-subtle)]">
+                6 VON 9
+              </div>
+            </div>
+            <div className="flex w-[1096px] items-center h-[35px] shrink-0 border-b border-b-solid border-b-border-subtle">
+              <div className="w-[88px] shrink-0 [font-family:var(--font-mono)] text-2xs tracking-caps leading-[14px] inline-block [color:var(--color-fg-subtle)]">
+                08.08.
+              </div>
+              <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14.5px] leading-[21px] inline-block [color:var(--color-fg)]">
+                Merkblatt Energieberatung für Wohngebäude in Fassung 2026-01 veröffentlicht
+              </div>
+              <div className="w-[200px] shrink-0 text-right [font-family:var(--font-mono)] text-[10.5px] tracking-caps leading-[14px] inline-block [color:var(--color-fg-subtle)]">
+                BAFA EBW
+              </div>
+            </div>
+            <div className="flex w-[1096px] items-center h-[35px] shrink-0 border-b border-b-solid border-b-border-subtle">
+              <div className="w-[88px] shrink-0 [font-family:var(--font-mono)] text-2xs tracking-caps leading-[14px] inline-block [color:var(--color-fg-subtle)]">
+                04.08.
+              </div>
+              <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14.5px] leading-[21px] inline-block [color:var(--color-fg)]">
+                Zusatzvergütung für die Erläuterung in der Eigentümerversammlung gestrichen
+              </div>
+              <div className="w-[200px] shrink-0 text-right [font-family:var(--font-mono)] text-[10.5px] tracking-caps leading-[14px] inline-block [color:var(--color-fg-subtle)]">
+                BAFA EBW · NR. 3.5
+              </div>
+            </div>
+            <div className="flex w-[1096px] items-center h-[35px] shrink-0 border-b border-b-solid border-b-border-subtle">
+              <div className="w-[88px] shrink-0 [font-family:var(--font-mono)] text-2xs tracking-caps leading-[14px] inline-block [color:var(--color-fg-subtle)]">
+                29.07.
+              </div>
+              <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14.5px] leading-[21px] inline-block [color:var(--color-fg)]">
+                Förderfähige Kosten mit iSFP bleiben bei 60.000 € je Wohneinheit und Jahr
+              </div>
+              <div className="w-[200px] shrink-0 text-right [font-family:var(--font-mono)] text-[10.5px] tracking-caps leading-[14px] inline-block [color:var(--color-fg-subtle)]">
+                BEG EM · NR. 4.1
+              </div>
+            </div>
+            <div className="flex w-[1096px] items-center h-[35px] shrink-0 border-b border-b-solid border-b-border-subtle">
+              <div className="w-[88px] shrink-0 [font-family:var(--font-mono)] text-2xs tracking-caps leading-[14px] inline-block [color:var(--color-fg-subtle)]">
+                18.07.
+              </div>
+              <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14.5px] leading-[21px] inline-block [color:var(--color-fg)]">
+                Antragsformular um das Feld „Anschluss an ein Wärmenetz“ ergänzt
+              </div>
+              <div className="w-[200px] shrink-0 text-right [font-family:var(--font-mono)] text-[10.5px] tracking-caps leading-[14px] inline-block [color:var(--color-fg-subtle)]">
+                KFW 458
+              </div>
+            </div>
+            <div className="flex w-[1096px] items-center h-[36px] shrink-0">
+              <div className="w-[88px] shrink-0 [font-family:var(--font-mono)] text-2xs tracking-caps leading-[14px] inline-block [color:var(--color-border-strong)]">
+                ÄLTER
+              </div>
+              <div className="[font-family:var(--font-sans)] text-[14px] leading-[21px] inline-block font-medium [color:var(--color-brand)]">
+                Zwei redaktionelle Korrekturen aus dem Juli ansehen
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )

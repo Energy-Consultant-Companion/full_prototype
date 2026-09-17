@@ -1,0 +1,125 @@
+(
+    <div className="[font-synthesis:none] wrap-anywhere flex overflow-clip flex-col relative items-center pt-[162px] [background-color:var(--color-canvas)] antialiased">
+      <div className="absolute left-[40px] top-[36px] flex items-center gap-[9px]">
+        <div className="w-[20px] h-[20px] flex items-center justify-center shrink-0 rounded-[6px] [background-color:var(--color-fg)]">
+          <div className="w-[7px] h-[7px] rounded-[2px] shrink-0 [background-color:var(--color-canvas)]" />
+        </div>
+        <div className="[font-family:var(--font-sans)] text-[14px] tracking-mono font-semibold leading-[18px] [color:var(--color-fg)]">
+          Energieberatung Held
+        </div>
+      </div>
+      <div className="w-[520px] flex flex-col items-start relative">
+        <div className="w-[40px] h-[40px] shrink-0">
+          <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" style={{ strokeWidth: '1.9' }}>
+            <path d="M5.5 17.8 20 6.2l14.5 11.6" fill="none" stroke="var(--color-accent-sky)" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M9.4 20.6v13.2h21.2V20.6" fill="none" stroke="var(--color-accent-sky)" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M16.4 33.8v-8.6h7.2v8.6" fill="none" stroke="var(--color-accent-sky)" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </div>
+        <div className="flex mt-[20px] gap-[5px]">
+          <div className="w-[40px] h-[3px] rounded-[999px] shrink-0 [background-color:var(--color-fg)]" />
+          <div className="w-[40px] h-[3px] rounded-[999px] shrink-0 bg-border" />
+          <div className="w-[40px] h-[3px] rounded-[999px] shrink-0 bg-border" />
+          <div className="w-[40px] h-[3px] rounded-[999px] shrink-0 bg-border" />
+        </div>
+        <div className="w-[520px] flex flex-col mt-[26px]">
+          <div className="[font-family:var(--font-display)] text-2xl tracking-[-0.025em] leading-[36px] font-semibold [color:var(--color-fg)]">
+            Um welches Gebäude geht es?
+          </div>
+          <div className="[font-family:var(--font-sans)] text-base leading-[22px] mt-[7px] [color:var(--color-fg-muted)]">
+            Damit ich weiß, welche Förderung überhaupt in Frage kommt.
+          </div>
+        </div>
+        <div className="w-[520px] flex flex-col mt-[28px] gap-xs">
+          <div className="w-[520px] flex items-center py-[15px] px-md rounded-[10px] gap-[14px] [background-color:var(--color-surface)] [border-width:1.5px] border-solid [border-color:var(--color-brand)]">
+            <div className="shrink-0 flex items-center justify-center size-lg">
+              <svg width="22" height="22" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ strokeWidth: '1.8', flexShrink: '0' }}>
+                <path d="M3.4 10.3 12 3.5l8.6 6.8" fill="none" stroke="var(--color-accent-sky)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M5.8 12.1v8.4h12.4v-8.4" fill="none" stroke="var(--color-accent-sky)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M9.9 20.5v-5.2h4.2v5.2" fill="none" stroke="var(--color-accent-sky)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </div>
+            <div className="flex flex-col grow">
+              <div className="[font-family:var(--font-sans)] text-base tracking-mono leading-[21px] font-semibold [color:var(--color-fg)]">
+                Einfamilienhaus
+              </div>
+              <div className="[font-family:var(--font-sans)] text-sm leading-[18px] mt-px [color:var(--color-fg-muted)]">
+                Eine Wohneinheit, freistehend oder Reihenhaus
+              </div>
+            </div>
+          </div>
+          <div className="w-[520px] flex items-center py-[15px] px-md rounded-[10px] gap-[14px] [background-color:var(--color-surface)] border border-solid border-border">
+            <div className="shrink-0 flex items-center justify-center size-lg">
+              <svg width="22" height="22" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ strokeWidth: '1.8', flexShrink: '0' }}>
+                <path d="M3.4 10.3 12 3.5l8.6 6.8" fill="none" stroke="var(--color-accent-sky)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M5.8 12.1v8.4h12.4v-8.4" fill="none" stroke="var(--color-accent-sky)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M12 20.5v-8.4" fill="none" stroke="var(--color-accent-sky)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </div>
+            <div className="flex flex-col grow">
+              <div className="[font-family:var(--font-sans)] text-base tracking-mono leading-[21px] font-semibold [color:var(--color-fg)]">
+                Zweifamilienhaus
+              </div>
+              <div className="[font-family:var(--font-sans)] text-sm leading-[18px] mt-px [color:var(--color-fg-muted)]">
+                Zwei Wohneinheiten, etwa mit Einliegerwohnung
+              </div>
+            </div>
+          </div>
+          <div className="w-[520px] flex items-center py-[15px] px-md rounded-[10px] gap-[14px] [background-color:var(--color-surface)] border border-solid border-border">
+            <div className="shrink-0 flex items-center justify-center size-lg">
+              <svg width="22" height="22" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ strokeWidth: '1.8', flexShrink: '0' }}>
+                <path d="M5.4 20.5V4.6h13.2v15.9" fill="none" stroke="var(--color-accent-sky)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M3 20.5h18" fill="none" stroke="var(--color-accent-sky)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M8.6 8.4h1.6M13.8 8.4h1.6M8.6 12.4h1.6M13.8 12.4h1.6" fill="none" stroke="var(--color-accent-sky)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M10.2 20.5v-3.6h3.6v3.6" fill="none" stroke="var(--color-accent-sky)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </div>
+            <div className="flex flex-col grow">
+              <div className="[font-family:var(--font-sans)] text-base tracking-mono leading-[21px] font-semibold [color:var(--color-fg)]">
+                Mehrfamilienhaus
+              </div>
+              <div className="[font-family:var(--font-sans)] text-sm leading-[18px] mt-px [color:var(--color-fg-muted)]">
+                Ab drei Wohneinheiten, auch mit Eigentümergemeinschaft
+              </div>
+            </div>
+          </div>
+          <div className="w-[520px] flex items-center py-[15px] px-md rounded-[10px] gap-[14px] [background-color:var(--color-surface)] border border-solid border-border">
+            <div className="shrink-0 flex items-center justify-center size-lg">
+              <svg width="22" height="22" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ strokeWidth: '1.8', flexShrink: '0' }}>
+                <path d="M3.6 9.4 5.3 4.4h13.4l1.7 5" fill="none" stroke="var(--color-accent-sky)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M5.8 9.4v11.1h12.4V9.4" fill="none" stroke="var(--color-accent-sky)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M3.6 9.4h16.8" fill="none" stroke="var(--color-accent-sky)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M9.4 20.5v-6.4h5.2v6.4" fill="none" stroke="var(--color-accent-sky)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </div>
+            <div className="flex flex-col grow">
+              <div className="[font-family:var(--font-sans)] text-base tracking-mono leading-[21px] font-semibold [color:var(--color-fg)]">
+                Gewerbe
+              </div>
+              <div className="[font-family:var(--font-sans)] text-sm leading-[18px] mt-px [color:var(--color-fg-muted)]">
+                Nichtwohngebäude — eigene Förderkulisse
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="w-[520px] h-[42px] flex items-center justify-center mt-[28px] rounded-[10px] gap-xs shrink-0 [background-color:var(--color-brand)]">
+          <div className="[font-family:var(--font-sans)] text-base tracking-[-0.005em] font-semibold leading-[18px] [color:var(--color-brand-fg)]">
+            Weiter
+          </div>
+          <svg width="15" height="15" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+            <path d="M4.5 12h14.5" fill="none" stroke="var(--color-brand-fg)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M13 6.2 19 12l-6 5.8" fill="none" stroke="var(--color-brand-fg)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </div>
+      </div>
+      <div className="absolute left-[0px] bottom-[40px] w-app flex items-center justify-center gap-[7px]">
+        <svg width="13" height="13" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+          <path d="M5.5 10.5h13v10h-13z" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M8.6 10.5V7.4a3.4 3.4 0 0 1 6.8 0v3.1" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+        <div className="[font-family:var(--font-sans)] text-sm leading-md [color:var(--color-fg-subtle)]">
+          Verschlüsselt übertragen · kein Konto nötig · jederzeit abbrechbar
+        </div>
+      </div>
+    </div>
+  )

@@ -1,0 +1,228 @@
+(
+    <div className="[font-synthesis:none] wrap-anywhere flex overflow-clip flex-col [background-color:var(--color-surface)] antialiased">
+      <div className="w-app h-[882px] flex flex-col overflow-clip relative shrink-0 [background-color:var(--color-surface-inverse)]">
+        <div className="left-[0px] top-[0px] absolute right-[0px] bottom-[0px] bg-cover bg-position-[50%]" style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01KYW948ZCHHGYZSKYHX8FC4E5/01M2JVS9FNA6Q5SJWEKNVFQE4J.png)' }} />
+        <div className="absolute left-[0px] top-[0px] w-app h-[882px] opacity-[0.25]" style={{ backgroundImage: 'linear-gradient(in oklab 94deg, oklab(15.8% -0.001 -0.007 / 95%) 0%, oklab(15.8% -0.001 -0.007 / 88%) 32%, oklab(15.8% -0.001 -0.007 / 58%) 62%, oklab(15.8% -0.001 -0.007 / 36%) 100%)' }} />
+        <div className="absolute left-[0px] top-[0px] w-app h-[200px]" style={{ backgroundImage: 'linear-gradient(in oklab 180deg, oklab(15.8% -0.001 -0.007 / 78%) 0%, oklab(15.8% -0.001 -0.007 / 32%) 60%, oklab(15.8% -0.001 -0.007 / 0%) 100%)' }} />
+        <div className="flex items-center justify-between w-app h-[92px] shrink-0 px-[80px] relative">
+          <div className="flex items-center gap-sm">
+            <div className="w-[26px] h-[26px] flex items-center justify-center shrink-0 rounded-md [background-color:var(--color-surface)]">
+              <div className="w-[9px] h-[9px] rounded-[2px] shrink-0 [background-color:var(--color-fg)]" />
+            </div>
+            <div className="flex flex-col gap-px">
+              <div className="[font-family:var(--font-display)] text-base tracking-tight font-semibold leading-[18px] [color:var(--color-fg-inverse)]">
+                Energieberatung Held
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center gap-lg">
+            <div className="flex items-center h-[36px] [font-family:var(--font-sans)] px-[18px] rounded-full border border-solid border-border-inverse-strong">
+              <div className="flex [font-family:var(--font-sans)] text-sm font-medium leading-md [color:var(--color-fg-inverse)]">
+                Anfrage erstellen
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col justify-end grow basis-[0%] w-app pb-[92px] relative px-[80px]">
+          <div className="w-[540px] [font-family:var(--font-display)] text-[62px] tracking-tighter leading-[60px] font-semibold [color:var(--color-fg-inverse)]">
+            Exemplarische Website
+          </div>
+          <div className="w-[560px] [font-family:var(--font-sans)] pt-lg">
+            <div className="[font-family:var(--font-sans)] text-md leading-[29px] text-[#FFFFFFD1]">
+              Diese verlinkt direkt zu ENSERA
+            </div>
+          </div>
+          <div className="flex items-center pt-[40px] gap-[20px]">
+            <div className="flex items-center h-[52px] shrink-0 px-[26px] rounded-full gap-[10px] [background-color:#FFFFFF]">
+              <div className="[font-family:var(--font-sans)] text-base tracking-tight font-semibold leading-[18px] [color:var(--color-fg)]">
+                Anfrage erstellen
+              </div>
+              <svg width="15" height="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M3 7.5h9M8.5 4l3.5 3.5L8.5 11" fill="none" stroke="var(--color-fg)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </div>
+          </div>
+          <div className="absolute left-[0px] top-[716px] w-app h-[74px]" style={{ backgroundImage: 'linear-gradient(in oklab 180deg, oklab(15.8% -0.001 -0.007 / 0%) 0%, oklab(15.8% -0.001 -0.007 / 55%) 100%)' }} />
+        </div>
+      </div>
+      <div className="flex w-app shrink-0 pt-[104px] pb-4xl gap-[80px] px-[80px] [background-color:var(--color-surface)]">
+        <div className="flex flex-col grow basis-[0%] items-center justify-center">
+          <div className="w-[874px] [font-family:var(--font-display)] text-3xl tracking-tight leading-[44px] text-center font-semibold flex justify-center flex-wrap [color:var(--color-fg)]">
+            Überblick
+          </div>
+          <div className="flex w-[1000px] pt-3xl gap-[20px]">
+            <div className="flex flex-col w-[320px] shrink-0">
+              <div className="flex items-center w-[320px] h-[10px] relative shrink-0">
+                <div className="absolute left-[0px] top-[4.5px] w-[320px] h-px bg-border" />
+              </div>
+              <div className="flex items-baseline pt-[22px] gap-md h-[36px]" />
+              <div className="[font-family:var(--font-display)] pt-sm">
+                <div className="[font-family:var(--font-display)] text-[22px] tracking-tight font-semibold leading-[28px] [color:var(--color-fg)]">
+                  Ihre Website bleibt gleich
+                </div>
+              </div>
+              <div className="w-[280px] [font-family:var(--font-sans)] pt-[10px]">
+                <div className="[font-family:var(--font-sans)] text-base leading-[25px] [color:var(--color-fg-muted)]">
+                  Was Sie heute haben, bleibt bestehen. Ihre Texte, Preise und Fotos bleiben unverändert. ENSERA greift hier nicht ein und möchte es auch nicht.
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col w-[320px] shrink-0">
+              <div className="flex items-center w-[320px] h-[10px] relative shrink-0">
+                <div className="absolute left-[0px] top-[4.5px] w-[320px] h-px bg-border" />
+              </div>
+              <div className="flex items-baseline pt-[22px] gap-md h-[36px]" />
+              <div className="[font-family:var(--font-display)] pt-sm">
+                <div className="[font-family:var(--font-display)] text-[22px] tracking-tight font-semibold leading-[28px] [color:var(--color-fg)]">
+                  Ein Link direkt zur Akquise
+                </div>
+              </div>
+              <div className="w-[280px] [font-family:var(--font-sans)] pt-[10px]">
+                <div className="[font-family:var(--font-sans)] text-base leading-[25px] [color:var(--color-fg-muted)]">
+                  Ein Button „Anfrage erstellen“, der direkt auf Ihren Bereich verweist. Mehr ist für die Einbindung nicht erforderlich.
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col w-[320px] shrink-0">
+              <div className="flex items-center w-[320px] h-[10px] relative shrink-0">
+                <div className="absolute left-[0px] top-[4.5px] w-[320px] h-px" style={{ backgroundImage: 'linear-gradient(in oklab 90deg, oklab(92.9% -0.003 -0.006) 0%, oklab(92.9% -0.003 -0.006) 55%, oklab(92.9% -0.003 -0.006 / 0%) 100%)' }} />
+              </div>
+              <div className="flex items-baseline pt-[22px] gap-md h-[36px]" />
+              <div className="[font-family:var(--font-display)] pt-sm">
+                <div className="[font-family:var(--font-display)] text-[22px] tracking-tight font-semibold leading-[28px] [color:var(--color-fg)]">
+                  Danach Klientenportal
+                </div>
+              </div>
+              <div className="w-[280px] [font-family:var(--font-sans)] pt-[10px]">
+                <div className="[font-family:var(--font-sans)] text-base leading-[25px] [color:var(--color-fg-muted)]">
+                  Anfragen prüfen, Zugänge verschicken, Unterlagen einsammeln, Fristen im Blick behalten und Fragen beantworten. Dies übernimmt ENSERA.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex w-app shrink-0 py-[104px] px-[80px] gap-[80px] [background-color:var(--color-surface-sunken)]">
+        <div className="flex flex-col w-[200px] shrink-0 pt-[6px] gap-[14px]">
+          <div className="[font-family:var(--font-mono)] text-2xs tracking-caps leading-[14px] [color:var(--color-fg-subtle)]">
+            02 — WER ICH BIN
+          </div>
+          <div className="[font-family:var(--font-sans)] text-sm leading-[21px] [color:var(--color-fg-muted)]">
+            Damit Sie wissen, wer bei Ihnen im Keller steht.
+          </div>
+        </div>
+        <div className="flex grow basis-[0%] items-start gap-[40px]">
+          <div className="flex flex-col w-[340px] shrink-0">
+            <div className="w-[340px] h-[420px] rounded-xl overflow-clip flex flex-col justify-end p-[28px] relative shrink-0 bg-cover bg-position-[50%]" style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01KYW948ZCHHGYZSKYHX8FC4E5/01M0AQE0NY00BQTTV2FPVP3V6B.jpg)' }}>
+              <svg width="340" height="420" viewBox="0 0 340 420" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', left: '0px', top: '0px' }}>
+                <defs><pattern id="_216rlx0" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="rgb(255 255 255 / 6%)" fill="none"/></pattern></defs>
+                <rect width="340" height="420" fill="url(#_216rlx0)" />
+              </svg>
+              <div className="flex flex-col gap-xs relative h-[114px]" />
+            </div>
+            <div className="flex flex-col pt-md gap-2xs">
+              <div className="[font-family:var(--font-sans)] text-[14px] font-medium leading-[18px] [color:var(--color-fg)]">
+                Katrin Held
+              </div>
+              <div className="[font-family:var(--font-sans)] text-sm leading-md [color:var(--color-fg-subtle)]">
+                Exemplarische Energieberaterin
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col grow basis-[0%]">
+            <div className="w-[600px] [font-family:var(--font-display)] text-3xl tracking-tight leading-[44px] font-semibold [color:var(--color-fg)]">
+              Katrin Held, Exemplarische Energieberaterin für die Demo.
+            </div>
+            <div className="w-[600px] [font-family:var(--font-sans)] pt-[22px]">
+              <div className="[font-family:var(--font-sans)] text-[16px] leading-[28px] [color:var(--color-fg-muted)]">
+                Ich habe Bauingenieurwesen studiert und zwölf Jahre in einem Planungsbüro Sanierungen begleitet, bevor ich 2016 mein eigenes Büro aufgemacht habe. Seitdem habe ich 142 Häuser zwischen Peine, Vechelde und Ilsede durchgerechnet — die meisten Baujahr 1950 bis 1980, viele mit einer Heizung, die ihre Zeit hinter sich hat.
+              </div>
+            </div>
+            <div className="w-[600px] [font-family:var(--font-sans)] pt-[18px]">
+              <div className="[font-family:var(--font-sans)] text-[16px] leading-[28px] [color:var(--color-fg-muted)]">
+                Ich arbeite allein. Das heißt: von der ersten Frage bis zum Bescheid haben Sie dieselbe Ansprechpartnerin, unter derselben Nummer. Es heißt auch, dass ich im Jahr nur eine begrenzte Zahl Häuser annehmen kann — deshalb die kurze Anfrage vorweg.
+              </div>
+            </div>
+            <div className="flex flex-col w-[600px] mt-xl pt-xl border-t border-t-solid border-t-border">
+              <div className="flex items-baseline py-sm gap-lg border-b border-b-solid border-b-border">
+                <div className="w-[190px] shrink-0 [font-family:var(--font-mono)] text-2xs tracking-caps leading-[14px] [color:var(--color-fg-subtle)]">
+                  DENA-EXPERTENLISTE
+                </div>
+                <div className="grow basis-[0%] [font-family:var(--font-sans)] text-base leading-[18px] [color:var(--color-fg)]">
+                  EEE 184 992 · eingetragen seit 2016
+                </div>
+              </div>
+              <div className="flex items-baseline py-sm gap-lg border-b border-b-solid border-b-border">
+                <div className="w-[190px] shrink-0 [font-family:var(--font-mono)] text-2xs tracking-caps leading-[14px] [color:var(--color-fg-subtle)]">
+                  AUSBILDUNG
+                </div>
+                <div className="grow basis-[0%] [font-family:var(--font-sans)] text-base leading-[18px] [color:var(--color-fg)]">
+                  Dipl.-Ing. Bauingenieurwesen, TU Braunschweig
+                </div>
+              </div>
+              <div className="flex items-baseline py-sm gap-lg border-b border-b-solid border-b-border">
+                <div className="w-[190px] shrink-0 [font-family:var(--font-mono)] text-2xs tracking-caps leading-[14px] [color:var(--color-fg-subtle)]">
+                  ANTRAGSBERECHTIGT
+                </div>
+                <div className="grow basis-[0%] [font-family:var(--font-sans)] text-base leading-[18px] [color:var(--color-fg)]">
+                  BAFA EBW · BEG EM · KfW 458 und 261
+                </div>
+              </div>
+              <div className="flex items-baseline py-sm gap-lg">
+                <div className="w-[190px] shrink-0 [font-family:var(--font-mono)] text-2xs tracking-caps leading-[14px] [color:var(--color-fg-subtle)]">
+                  ERREICHBAR
+                </div>
+                <div className="grow basis-[0%] [font-family:var(--font-sans)] text-base leading-[18px] [color:var(--color-fg)]">
+                  05171 · 40 22 88 — meist am selben Werktag
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col w-app shrink-0 pt-[80px] pb-[56px] px-[80px] [background-color:var(--color-surface-inverse)]">
+        <div className="flex items-end justify-between pb-[56px]">
+          <div className="w-[620px] [font-family:var(--font-display)] text-2xl tracking-tight leading-[40px] shrink-0 font-medium [color:var(--color-fg-inverse)]">
+            Bei Rückfragen können sie uns immer gerne telefonisch oder per Mail erreichen.
+          </div>
+          <div className="flex items-center shrink-0 pb-[6px] gap-[9px]">
+            <div className="[font-family:var(--font-sans)] text-base font-medium leading-[18px] [color:var(--color-brand-inverse)]">
+              Anfrage erstellen
+            </div>
+            <svg width="14" height="14" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+              <path d="M3 7.5h9M8.5 4l3.5 3.5L8.5 11" fill="none" stroke="var(--color-brand-inverse)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </div>
+        </div>
+        <div className="flex items-start justify-between pt-xl border-t border-t-solid [border-top-color:var(--color-border-inverse)]">
+          <div className="flex flex-col gap-[14px]">
+            <div className="[font-family:var(--font-display)] text-base tracking-tight font-semibold leading-[18px] [color:var(--color-fg-inverse)]">
+              Energieberatung Held
+            </div>
+            <div className="flex items-center gap-[22px]">
+              <div className="[font-family:var(--font-sans)] text-sm leading-md text-fg-inverse-muted">
+                Impressum
+              </div>
+              <div className="[font-family:var(--font-sans)] text-sm leading-md text-fg-inverse-muted">
+                Datenschutz
+              </div>
+              <div className="[font-family:var(--font-sans)] text-sm leading-md text-fg-inverse-muted">
+                Widerrufsrecht
+              </div>
+              <div className="[font-family:var(--font-sans)] text-sm leading-md text-fg-inverse-muted">
+                Kontakt
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col items-end gap-sm">
+            <div className="w-panel text-right [font-family:var(--font-sans)] text-sm leading-[21px] flex justify-end flex-wrap text-fg-inverse-muted">
+              Ihre Anfrage wird in Deutschland gespeichert und nur von mir gelesen. Kein Newsletter, keine Weitergabe.
+            </div>
+            <div className="[font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm text-[#FFFFFF61]">
+              LÄUFT MIT ENSERA KONTAKT
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )

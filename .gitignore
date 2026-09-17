@@ -1,0 +1,12 @@
+node_modules
+dist
+.DS_Store
+*.local
+.context
+tsconfig.tsbuildinfo
+
+node_modules/
+.next/
+out/
+build/
+.env*.local

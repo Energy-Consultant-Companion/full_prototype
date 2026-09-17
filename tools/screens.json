@@ -1,0 +1,52 @@
+[
+  { "id": "FJT-0",  "component": "Website",                 "slug": "website",                   "chapter": "kundschaft", "title": "Website der Beraterin",          "note": "Bestehende Website, ein Button führt zu ENSERA." },
+  { "id": "H9N-0",  "component": "AnfrageGebaeude",         "slug": "anfrage-gebaeude",          "chapter": "kundschaft", "title": "Erstanfrage · 1 Gebäude",        "note": "Vier kurze Schritte, kein Konto nötig." },
+  { "id": "VTP-1",  "component": "AnfrageVorhaben",         "slug": "anfrage-vorhaben",          "chapter": "kundschaft", "title": "Erstanfrage · 2 Vorhaben",       "note": "" },
+  { "id": "VZD-1",  "component": "AnfrageZeitpunkt",        "slug": "anfrage-zeitpunkt",         "chapter": "kundschaft", "title": "Erstanfrage · 3 Zeitpunkt",      "note": "" },
+  { "id": "W44-1",  "component": "AnfrageKontakt",          "slug": "anfrage-kontakt",           "chapter": "kundschaft", "title": "Erstanfrage · 4 Anliegen",       "note": "Absenden — die Anfrage landet bei der Beraterin." },
+
+  { "id": "HC9-0",  "component": "Anfragen",                "slug": "anfragen",                  "chapter": "annahme",    "title": "Anfragen · Annehmen",            "note": "Gegen die eigenen Regeln vorgeprüft. „Annehmen und Zugang senden“." },
+  { "id": "ILU-0",  "component": "MailZugang",              "slug": "mail-zugang",               "chapter": "annahme",    "title": "Mail · Zugang verschickt",       "note": "Die Kundschaft hat die Wahl: Portal oder einfach antworten." },
+
+  { "id": "IQV-0",  "component": "MailAntwort",             "slug": "mail-antwort",              "chapter": "weg-mail",   "title": "Weg 2 · Per Mail antworten",     "note": "Dateien an die Mail hängen — mehr nicht." },
+  { "id": "IXO-0",  "component": "MailBestaetigt",          "slug": "mail-bestaetigt",           "chapter": "weg-mail",   "title": "Weg 2 · Statusmeldung",          "note": "Stand, Fehlendes und Frist kommen automatisch per Mail." },
+  { "id": "J30-0",  "component": "MailErinnerung",          "slug": "mail-erinnerung",           "chapter": "weg-mail",   "title": "Weg 2 · Erinnerung",             "note": "Fristen laufen nach, ohne dass jemand daran denken muss." },
+
+  { "id": "HHC-0",  "component": "PortalInformationen",     "slug": "portal-informationen",      "chapter": "weg-portal", "title": "Weg 1 · Angaben ergänzen",       "note": "Im Portal fehlende Angaben nachtragen." },
+  { "id": "FMN-0",  "component": "Klientenportal",          "slug": "klientenportal",            "chapter": "weg-portal", "title": "Weg 1 · Klientenportal",         "note": "Danach: voller Zugang zum eigenen Bereich." },
+
+  { "id": "YN0-0",  "component": "Ueberblick",              "slug": "ueberblick",                "chapter": "beratung",   "title": "Überblick",                      "note": "Offene Aktionen und Regeländerungen des Tages." },
+  { "id": "FTO-0",  "component": "Faelle",                  "slug": "faelle",                    "chapter": "beratung",   "title": "Fälle",                          "note": "Alle Fälle — oder manuell einen neuen anlegen." },
+  { "id": "X90-0",  "component": "FallAnlegenUnterlagen",   "slug": "fall-anlegen-unterlagen",   "chapter": "beratung",   "title": "Fall anlegen · Aus Unterlagen",  "note": "" },
+  { "id": "Y1W-0",  "component": "FallAnlegenProjekt",      "slug": "fall-anlegen-projekt",      "chapter": "beratung",   "title": "Fall anlegen · Projekt",         "note": "" },
+
+  { "id": "HN8-0",  "component": "FallUebersicht",          "slug": "fall-uebersicht",           "chapter": "fall",       "title": "Fall · Übersicht",               "note": "Aktueller Schritt, nächste Aktionen, Zusammenfassung." },
+  { "id": "HTY-0",  "component": "FallSchritte",            "slug": "fall-schritte",             "chapter": "fall",       "title": "Fall · Schritte",                "note": "Die zwölf Schritte im Detail." },
+  { "id": "I7A-0",  "component": "FallVerlauf",             "slug": "fall-verlauf",              "chapter": "fall",       "title": "Fall · Verlauf",                 "note": "Was bisher passiert ist — von wem." },
+  { "id": "SRU-0",  "component": "FallUnterlagenOrdner",    "slug": "fall-unterlagen-ordner",    "chapter": "fall",       "title": "Fall · Unterlagen (Ordner)",     "note": "Ablage nach Ordnern. Einen Ordner anklicken." },
+  { "id": "SZ8-0",  "component": "FallUnterlagenGeoeffnet", "slug": "fall-unterlagen-geoeffnet", "chapter": "fall",       "title": "Fall · Ordner geöffnet",         "note": "" },
+  { "id": "UYL-1",  "component": "FallUnterlagenFehlend",   "slug": "fall-unterlagen-fehlend",   "chapter": "fall",       "title": "Fall · Unterlage fehlt",         "note": "Worauf gewartet wird und bei wem." },
+  { "id": "ICP-0",  "component": "FallAktionen",            "slug": "fall-aktionen",             "chapter": "fall",       "title": "Fall · Aktionsmenü",             "note": "⌘P — Aktionen im Kontext des Falls." },
+
+  { "id": "GTN-0",  "component": "NaechsteSchritte",        "slug": "naechste-schritte",         "chapter": "arbeit",     "title": "Nächste Schritte",               "note": "Fallübergreifend, detaillierter als im Überblick." },
+  { "id": "GZ0-0",  "component": "Fragen",                  "slug": "fragen",                    "chapter": "arbeit",     "title": "Fragen",                         "note": "Aus Portal und E-Mail, an einem Ort." },
+  { "id": "H3L-0",  "component": "FrageEntwurf",            "slug": "frage-entwurf",             "chapter": "arbeit",     "title": "Frage · Entwurf von ENSERA",     "note": "Mit Fundstellen. Freigeben, bearbeiten oder selbst schreiben." },
+  { "id": "YXV-0",  "component": "FrageStellen",            "slug": "frage-stellen",             "chapter": "arbeit",     "title": "Frage stellen",                  "note": "Selbst eine Frage an Kundschaft oder Handwerk stellen." },
+  { "id": "G40-0",  "component": "SucheGlobal",             "slug": "suche-global",              "chapter": "arbeit",     "title": "Suche · Global",                 "note": "⌘K — über alle Fälle." },
+  { "id": "GHI-0",  "component": "SucheFall",               "slug": "suche-fall",                "chapter": "arbeit",     "title": "Suche · Auf Fall eingegrenzt",   "note": "Auf einen Fall eingrenzen." },
+
+  { "id": "JQ1-0",  "component": "UnterlagenEingang",       "slug": "unterlagen-eingang",        "chapter": "unterlagen", "title": "Unterlagen · Eingang",           "note": "Gegenprüfen, selber prüfen, validiert." },
+  { "id": "JX3-0",  "component": "UnterlagenPruefung",      "slug": "unterlagen-pruefung",       "chapter": "unterlagen", "title": "Unterlagen · Selber prüfen",     "note": "Befund mit Fundstelle im Dokument." },
+  { "id": "PO3-0",  "component": "UnterlagenGegenpruefen",  "slug": "unterlagen-gegenpruefen",   "chapter": "unterlagen", "title": "Unterlagen · Gegenprüfen",       "note": "Ohne Befund — annehmen und ablegen." },
+
+  { "id": "T6M-0",  "component": "FoerderungPruefung",      "slug": "foerderung-pruefung",       "chapter": "foerderung", "title": "Förderung · Prüfung",            "note": "Fall wählen, Angaben kommen aus dem Fall." },
+  { "id": "TUD-0",  "component": "FoerderungErgebnisse",    "slug": "foerderung-ergebnisse",     "chapter": "foerderung", "title": "Förderung · Förderwege",         "note": "Ein erster Startpunkt — verbindlich ist der Bescheid." },
+  { "id": "U35-0",  "component": "FoerderungProgramm",      "slug": "foerderung-programm",       "chapter": "foerderung", "title": "Förderung · Programm",           "note": "Details und Übernahme in den Fall." },
+
+  { "id": "OSG-0",  "component": "Regulierungen",           "slug": "regulierungen",             "chapter": "regeln",     "title": "Regulierungs-KI",                "note": "Frage mit Fall- und Dokumentkontext stellen." },
+  { "id": "Q42-0",  "component": "RegulierungenAntwort",    "slug": "regulierungen-antwort",     "chapter": "regeln",     "title": "Regulierungen · Antwort",        "note": "Antwort mit nummerierten Fundstellen." },
+  { "id": "WKJ-0",  "component": "RegulierungenAenderungen","slug": "regulierungen-aenderungen", "chapter": "regeln",     "title": "Regulierungen · Änderungen",     "note": "Welche Änderung welche Fälle betrifft." },
+
+  { "id": "X17-0",  "component": "EinstellungenProfil",     "slug": "einstellungen-profil",      "chapter": "einstellungen", "title": "Einstellungen · Profil",      "note": "Arbeitsweise, an der ENSERA sich ausrichtet." },
+  { "id": "XWB-0",  "component": "EinstellungenVorlagen",   "slug": "einstellungen-vorlagen",    "chapter": "einstellungen", "title": "Einstellungen · Projektvorlagen","note": "Schritte, Fristen und Pflichtunterlagen je Förderweg." }
+]

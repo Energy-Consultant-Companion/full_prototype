@@ -1,0 +1,127 @@
+(
+    <div className="[font-synthesis:none] wrap-anywhere flex overflow-clip flex-col relative items-center pt-[162px] [background-color:var(--color-canvas)] antialiased">
+      <div className="absolute left-[40px] top-[36px] flex items-center gap-[9px]">
+        <div className="w-[20px] h-[20px] flex items-center justify-center shrink-0 rounded-[6px] [background-color:var(--color-fg)]">
+          <div className="w-[7px] h-[7px] rounded-[2px] shrink-0 [background-color:var(--color-canvas)]" />
+        </div>
+        <div className="[font-family:var(--font-sans)] text-[14px] tracking-mono font-semibold leading-[18px] [color:var(--color-fg)]">
+          Energieberatung Held
+        </div>
+      </div>
+      <div className="w-[520px] flex flex-col items-start relative">
+        <div className="w-[40px] h-[40px] shrink-0">
+          <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.6 7.8h-4.2a2.6 2.6 0 0 0-2.6 2.6v21.4a2.6 2.6 0 0 0 2.6 2.6h19.2a2.6 2.6 0 0 0 2.6-2.6V10.4a2.6 2.6 0 0 0-2.6-2.6h-4.2" fill="none" stroke="var(--color-accent-amber)" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round" />
+            <rect x="14.6" y="4.8" width="10.8" height="6" rx="2" fill="none" stroke="var(--color-accent-amber)" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M14 19.6h12M14 25.4h8.4" fill="none" stroke="var(--color-accent-amber)" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </div>
+        <div className="flex mt-[20px] gap-[5px]">
+          <div className="w-[40px] h-[3px] rounded-[999px] shrink-0 [background-color:var(--color-fg)]" />
+          <div className="w-[40px] h-[3px] rounded-[999px] shrink-0 [background-color:var(--color-fg)]" />
+          <div className="w-[40px] h-[3px] rounded-[999px] shrink-0 bg-border" />
+          <div className="w-[40px] h-[3px] rounded-[999px] shrink-0 bg-border" />
+        </div>
+        <div className="w-[520px] flex flex-col mt-[26px]">
+          <div className="[font-family:var(--font-display)] text-2xl tracking-[-0.025em] leading-[36px] font-semibold [color:var(--color-fg)]">
+            Was steht bei Ihnen an?
+          </div>
+          <div className="[font-family:var(--font-sans)] text-base leading-[22px] mt-[7px] [color:var(--color-fg-muted)]">
+            Noch nichts entschieden? Das letzte Feld ist eine völlig normale Antwort.
+          </div>
+        </div>
+        <div className="w-[520px] flex flex-col mt-[28px] gap-xs">
+          <div className="w-[520px] flex items-center py-[15px] px-md rounded-[10px] gap-[14px] [background-color:var(--color-surface)] border border-solid border-border">
+            <div className="shrink-0 flex items-center justify-center size-lg">
+              <svg width="22" height="22" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M6.2 3.6h7.6l4.6 4.6v12.2H6.2z" fill="none" stroke="var(--color-accent-amber)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M13.6 3.6v4.8h4.8" fill="none" stroke="var(--color-accent-amber)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M9.2 13h6M9.2 16.6h4" fill="none" stroke="var(--color-accent-amber)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </div>
+            <div className="flex flex-col grow">
+              <div className="[font-family:var(--font-sans)] text-base tracking-mono leading-[21px] font-semibold [color:var(--color-fg)]">
+                Sanierungsfahrplan
+              </div>
+              <div className="[font-family:var(--font-sans)] text-sm leading-[18px] mt-px [color:var(--color-fg-muted)]">
+                Der ganze Weg in Etappen, mit Förderung für jeden Schritt
+              </div>
+            </div>
+          </div>
+          <div className="w-[520px] flex items-center py-[15px] px-md rounded-[10px] gap-[14px] [background-color:var(--color-surface)] border border-solid border-border">
+            <div className="shrink-0 flex items-center justify-center size-lg">
+              <svg width="22" height="22" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <circle cx="12" cy="12" r="8.4" fill="none" stroke="var(--color-accent-amber)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                <circle cx="12" cy="12" r="3.9" fill="none" stroke="var(--color-accent-amber)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                <circle cx="12" cy="12" r="0.6" fill="var(--color-accent-amber)" stroke="var(--color-accent-amber)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </div>
+            <div className="flex flex-col grow">
+              <div className="[font-family:var(--font-sans)] text-base tracking-mono leading-[21px] font-semibold [color:var(--color-fg)]">
+                Einzelne Maßnahme
+              </div>
+              <div className="[font-family:var(--font-sans)] text-sm leading-[18px] mt-px [color:var(--color-fg-muted)]">
+                Ein konkretes Vorhaben — Dach, Fenster oder Fassade
+              </div>
+            </div>
+          </div>
+          <div className="w-[520px] flex items-center py-[15px] px-md rounded-[10px] gap-[14px] [background-color:var(--color-surface)] [border-width:1.5px] border-solid [border-color:var(--color-brand)]">
+            <div className="shrink-0 flex items-center justify-center size-lg">
+              <svg width="22" height="22" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M12 3.2s5.6 4.7 5.6 9.5A5.6 5.6 0 0 1 12 20.6a5.6 5.6 0 0 1-5.6-7.9C6.4 8 12 3.2 12 3.2Z" fill="none" stroke="var(--color-accent-amber)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M12 20.6a2.7 2.7 0 0 0 2.7-2.7c0-2-2.7-3.8-2.7-3.8s-2.7 1.8-2.7 3.8A2.7 2.7 0 0 0 12 20.6Z" fill="none" stroke="var(--color-accent-amber)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </div>
+            <div className="flex flex-col grow">
+              <div className="[font-family:var(--font-sans)] text-base tracking-mono leading-[21px] font-semibold [color:var(--color-fg)]">
+                Heizung tauschen
+              </div>
+              <div className="[font-family:var(--font-sans)] text-sm leading-[18px] mt-px [color:var(--color-fg-muted)]">
+                Alte Anlage raus, neue rein — meist die größte Förderung
+              </div>
+            </div>
+          </div>
+          <div className="w-[520px] flex items-center py-[15px] px-md rounded-[10px] gap-[14px] [background-color:var(--color-surface)] border border-solid border-border">
+            <div className="shrink-0 flex items-center justify-center size-lg">
+              <svg width="22" height="22" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <circle cx="12" cy="12" r="8.6" fill="none" stroke="var(--color-accent-amber)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M9.5 9.4a2.6 2.6 0 0 1 5 1c0 1.8-2.5 2.2-2.5 3.9" fill="none" stroke="var(--color-accent-amber)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M12 17.4h0.01" fill="none" stroke="var(--color-accent-amber)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </div>
+            <div className="flex flex-col grow">
+              <div className="[font-family:var(--font-sans)] text-base tracking-mono leading-[21px] font-semibold [color:var(--color-fg)]">
+                Weiß ich noch nicht
+              </div>
+              <div className="[font-family:var(--font-sans)] text-sm leading-[18px] mt-px [color:var(--color-fg-muted)]">
+                Dann sortieren wir das im Erstgespräch gemeinsam
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="w-[520px] h-[42px] flex items-center justify-center mt-[28px] rounded-[10px] gap-xs shrink-0 [background-color:var(--color-brand)]">
+          <div className="[font-family:var(--font-sans)] text-base tracking-[-0.005em] font-semibold leading-[18px] [color:var(--color-brand-fg)]">
+            Weiter
+          </div>
+          <svg width="15" height="15" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+            <path d="M4.5 12h14.5" fill="none" stroke="var(--color-brand-fg)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M13 6.2 19 12l-6 5.8" fill="none" stroke="var(--color-brand-fg)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </div>
+      </div>
+      <div className="absolute left-[0px] bottom-[40px] w-app flex items-center justify-center gap-[7px]">
+        <svg width="13" height="13" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+          <path d="M5.5 10.5h13v10h-13z" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M8.6 10.5V7.4a3.4 3.4 0 0 1 6.8 0v3.1" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+        <div className="[font-family:var(--font-sans)] text-sm leading-md [color:var(--color-fg-subtle)]">
+          Verschlüsselt übertragen · kein Konto nötig · jederzeit abbrechbar
+        </div>
+      </div>
+      <div className="absolute left-[396px] top-[166px] flex items-center justify-center rounded-[999px] [background-color:var(--color-surface)] border border-solid border-border size-xl">
+        <svg width="15" height="15" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+          <path d="M14.5 5.5 8 12l6.5 6.5" fill="none" stroke="var(--color-fg-muted)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      </div>
+    </div>
+  )

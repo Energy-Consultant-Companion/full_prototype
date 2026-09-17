@@ -1,0 +1,522 @@
+(
+    <div className="[font-synthesis:none] wrap-anywhere flex overflow-clip w-app h-[900px] flex-col relative [background-color:#FFFFFF] antialiased">
+      <div className="flex items-center h-[26px] shrink-0 px-[14px] gap-[22px] bg-[#F3F3F3] border-b border-b-solid border-b-[#DCDCDC]">
+        <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+          <path d="M11.2 8.5c0-1.5 1.2-2.2 1.3-2.3-.7-1-1.8-1.2-2.2-1.2-1-.1-1.9.6-2.4.6s-1.2-.6-2-.6c-1 0-2 .6-2.5 1.5-1.1 1.9-.3 4.6.8 6.1.5.7 1.1 1.5 1.9 1.5.8 0 1-.5 2-.5s1.1.5 2 .5c.8 0 1.3-.7 1.8-1.4.6-.8.8-1.6.8-1.6s-1.5-.6-1.5-2.6zM9.6 3.9c.4-.5.7-1.2.6-1.9-.6 0-1.4.4-1.8.9-.4.5-.7 1.2-.6 1.9.7.1 1.4-.3 1.8-.9z" fill="#1D1D1F" />
+        </svg>
+        <div className="text-sm leading-md font-['HelveticaNeue-Bold','Helvetica_Neue',system-ui,sans-serif] font-bold text-[#1D1D1F]">
+          Mail
+        </div>
+        <div className="text-sm leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+          Ablage
+        </div>
+        <div className="text-sm leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+          Bearbeiten
+        </div>
+        <div className="text-sm leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+          Darstellung
+        </div>
+        <div className="text-sm leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+          Postfach
+        </div>
+        <div className="text-sm leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+          E-Mail
+        </div>
+        <div className="text-sm leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+          Format
+        </div>
+        <div className="text-sm leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+          Fenster
+        </div>
+        <div className="text-sm leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+          Hilfe
+        </div>
+        <div className="grow basis-[0%]" />
+        <div className="text-sm leading-md whitespace-pre-wrap font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+          Di 21. Juli{'  '}10:04
+        </div>
+      </div>
+      <div className="flex items-center h-[52px] shrink-0 bg-[#F5F5F5] border-b border-b-solid border-b-[#DCDCDC]">
+        <div className="flex items-center w-[220px] shrink-0 pl-md gap-xs">
+          <div className="rounded-[calc(infinity*1px)] shrink-0 bg-[#FF5F57] size-sm" />
+          <div className="rounded-[calc(infinity*1px)] shrink-0 bg-[#FEBC2E] size-sm" />
+          <div className="rounded-[calc(infinity*1px)] shrink-0 bg-[#28C840] size-sm" />
+        </div>
+        <div className="grow basis-[0%] flex items-center px-[20px] gap-[22px]">
+          <div className="flex flex-col w-[220px] shrink-0 gap-3xs">
+            <div className="text-[14px] leading-[17px] font-['HelveticaNeue-Bold','Helvetica_Neue',system-ui,sans-serif] font-bold text-[#1D1D1F]">
+              Posteingang
+            </div>
+            <div className="text-2xs leading-[13px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]">
+              24 Nachrichten
+            </div>
+          </div>
+          <svg width="17" height="17" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+            <rect x="2" y="4.5" width="16" height="11" rx="2" fill="none" stroke="#4B4B4F" strokeWidth="1.4" />
+            <path d="M2.6 5.6L10 10.8l7.4-5.2" fill="none" stroke="#4B4B4F" strokeWidth="1.4" strokeLinejoin="round" />
+          </svg>
+          <svg width="17" height="17" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+            <rect x="2.2" y="3.4" width="15.6" height="3.6" rx="1" fill="none" stroke="#4B4B4F" strokeWidth="1.4" />
+            <path d="M3.6 7v8.2a1.4 1.4 0 001.4 1.4h10a1.4 1.4 0 001.4-1.4V7M8 10.4h4" fill="none" stroke="#4B4B4F" strokeWidth="1.4" strokeLinecap="round" />
+          </svg>
+          <svg width="17" height="17" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+            <path d="M3.4 5.4h13.2M8 5.4V3.6h4v1.8M5.2 5.4l.8 11a1.4 1.4 0 001.4 1.3h5.2a1.4 1.4 0 001.4-1.3l.8-11" fill="none" stroke="#4B4B4F" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+          <svg width="17" height="17" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+            <path d="M7.6 5.2L3 9.8l4.6 4.6M3.4 9.8h7.8a5.4 5.4 0 015.4 5.4v1" fill="none" stroke="#4B4B4F" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+          <svg width="17" height="17" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+            <path d="M10.4 4.2L14 7.8l-3.6 3.6M14 7.8H8a5 5 0 00-5 5v2.6" fill="none" stroke="#4B4B4F" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+          <svg width="17" height="17" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+            <path d="M4.6 17V3.6h10.8l-2.2 3.8 2.2 3.8H4.6" fill="none" stroke="#4B4B4F" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+          <div className="grow basis-[0%]" />
+          <div className="flex items-center w-[270px] h-[28px] shrink-0 px-[10px] rounded-[6px] gap-xs bg-[#EAEAEA]">
+            <svg width="13" height="13" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+              <circle cx="7.2" cy="7.2" r="4.5" fill="none" stroke="#86868B" strokeWidth="1.4" />
+              <path d="M10.6 10.6L13.6 13.6" fill="none" stroke="#86868B" strokeWidth="1.4" strokeLinecap="round" />
+            </svg>
+            <div className="text-sm leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]">
+              Suchen
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex grow basis-[0%]">
+        <div className="flex flex-col w-[220px] shrink-0 py-sm px-[10px] bg-[#F5F5F5] border-r border-r-solid border-r-[#DCDCDC]">
+          <div className="flex flex-col gap-px">
+            <div className="py-[6px] px-[10px]">
+              <div className="text-2xs leading-[13px] font-['HelveticaNeue-Bold','Helvetica_Neue',system-ui,sans-serif] font-bold text-[#86868B]">
+                Favoriten
+              </div>
+            </div>
+            <div className="flex items-center h-[28px] px-[10px] rounded-[6px] gap-[10px] shrink-0 bg-[#DFDFDF]">
+              <svg width="15" height="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M2 8.8h3l1 1.8h4l1-1.8h3M2 8.8l1.6-5.2h8.8L14 8.8v3.4a1.3 1.3 0 01-1.3 1.3H3.3A1.3 1.3 0 012 12.2z" fill="none" stroke="#5B5B5F" strokeWidth="1.3" strokeLinejoin="round" />
+              </svg>
+              <div className="grow basis-[0%] text-sm leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+                Posteingang
+              </div>
+              <div className="text-xs leading-[15px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]">
+                1
+              </div>
+            </div>
+            <div className="flex items-center h-[28px] px-[10px] rounded-[6px] gap-[10px] shrink-0">
+              <svg width="15" height="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M8 2l1.8 3.8 4.2.6-3 3 .7 4.2L8 11.6l-3.7 2 .7-4.2-3-3 4.2-.6z" fill="none" stroke="#5B5B5F" strokeWidth="1.3" strokeLinejoin="round" />
+              </svg>
+              <div className="grow basis-[0%] text-sm leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+                VIP
+              </div>
+              <div className="text-xs leading-[15px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]" />
+            </div>
+            <div className="flex items-center h-[28px] px-[10px] rounded-[6px] gap-[10px] shrink-0">
+              <svg width="15" height="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M14.2 2L1.8 7.2l4.4 1.8 1.8 4.4z" fill="none" stroke="#5B5B5F" strokeWidth="1.3" strokeLinejoin="round" />
+              </svg>
+              <div className="grow basis-[0%] text-sm leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+                Gesendet
+              </div>
+              <div className="text-xs leading-[15px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]" />
+            </div>
+            <div className="flex items-center h-[28px] px-[10px] rounded-[6px] gap-[10px] shrink-0">
+              <svg width="15" height="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M4 2h5l3 3v9H4z" fill="none" stroke="#5B5B5F" strokeWidth="1.3" strokeLinejoin="round" />
+                <path d="M9 2v3h3" fill="none" stroke="#5B5B5F" strokeWidth="1.3" strokeLinejoin="round" />
+              </svg>
+              <div className="grow basis-[0%] text-sm leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+                Entwürfe
+              </div>
+              <div className="text-xs leading-[15px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]">
+                2
+              </div>
+            </div>
+            <div className="flex items-center h-[28px] px-[10px] rounded-[6px] gap-[10px] shrink-0">
+              <svg width="15" height="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M4 14.4V2.4h8.4l-1.7 3 1.7 3H4" fill="none" stroke="#5B5B5F" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              <div className="grow basis-[0%] text-sm leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+                Markiert
+              </div>
+              <div className="text-xs leading-[15px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]" />
+            </div>
+          </div>
+          <div className="flex flex-col gap-px pt-[14px]">
+            <div className="py-[6px] px-[10px]">
+              <div className="text-2xs leading-[13px] font-['HelveticaNeue-Bold','Helvetica_Neue',system-ui,sans-serif] font-bold text-[#86868B]">
+                Intelligente Postfächer
+              </div>
+            </div>
+            <div className="flex items-center h-[28px] px-[10px] rounded-[6px] gap-[10px] shrink-0">
+              <svg width="15" height="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <circle cx="8" cy="8" r="6" fill="none" stroke="#5B5B5F" strokeWidth="1.3" />
+                <path d="M8 4.6V8l2.4 1.6" fill="none" stroke="#5B5B5F" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              <div className="grow basis-[0%] text-sm leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+                Heute
+              </div>
+              <div className="text-xs leading-[15px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]" />
+            </div>
+            <div className="flex items-center h-[28px] px-[10px] rounded-[6px] gap-[10px] shrink-0">
+              <svg width="15" height="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M12.6 7.4l-5 5a3 3 0 01-4.2-4.2l5.4-5.4a2 2 0 012.8 2.8l-5.4 5.4a1 1 0 01-1.4-1.4l4.8-4.8" fill="none" stroke="#5B5B5F" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              <div className="grow basis-[0%] text-sm leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+                Anhänge
+              </div>
+              <div className="text-xs leading-[15px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]" />
+            </div>
+          </div>
+          <div className="flex flex-col gap-px pt-[14px]">
+            <div className="py-[6px] px-[10px]">
+              <div className="text-2xs leading-[13px] font-['HelveticaNeue-Bold','Helvetica_Neue',system-ui,sans-serif] font-bold text-[#86868B]">
+                Tags
+              </div>
+            </div>
+            <div className="flex items-center h-[28px] px-[10px] rounded-[6px] gap-[10px] shrink-0">
+              <div className="w-[11px] h-[11px] shrink-0 rounded-[calc(infinity*1px)] bg-[#34C759]" />
+              <div className="grow basis-[0%] text-sm leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+                Energieberatung
+              </div>
+              <div className="text-xs leading-[15px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]" />
+            </div>
+            <div className="flex items-center h-[28px] px-[10px] rounded-[6px] gap-[10px] shrink-0">
+              <div className="w-[11px] h-[11px] shrink-0 rounded-[calc(infinity*1px)] bg-[#FF9500]" />
+              <div className="grow basis-[0%] text-sm leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+                Privat
+              </div>
+              <div className="text-xs leading-[15px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]" />
+            </div>
+            <div className="flex items-center h-[28px] px-[10px] rounded-[6px] gap-[10px] shrink-0">
+              <div className="w-[11px] h-[11px] shrink-0 rounded-[calc(infinity*1px)] bg-[#007AFF]" />
+              <div className="grow basis-[0%] text-sm leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+                Haus
+              </div>
+              <div className="text-xs leading-[15px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]" />
+            </div>
+            <div className="flex items-center h-[28px] px-[10px] rounded-[6px] gap-[10px] shrink-0">
+              <div className="w-[11px] h-[11px] shrink-0 rounded-[calc(infinity*1px)] [border-width:1.3px] border-solid border-[#B4B4B8]" />
+              <div className="grow basis-[0%] text-sm leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+                Alle Tags …
+              </div>
+              <div className="text-xs leading-[15px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col w-[330px] shrink-0 [background-color:#FFFFFF] border-r border-r-solid border-r-[#DCDCDC]">
+          <div className="flex items-center justify-end h-xl shrink-0 px-md gap-[6px] border-b border-b-solid border-b-[#E8E8E8]">
+            <div className="text-xs leading-[15px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]">
+              Sortieren nach Datum
+            </div>
+            <svg width="10" height="10" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+              <path d="M3 4.6L6 7.6l3-3" fill="none" stroke="#86868B" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </div>
+          <div className="flex flex-col shrink-0 pt-[11px] pb-[13px] gap-[3px] px-md bg-[#0B69F0]">
+            <div className="flex items-baseline gap-xs">
+              <div className="grow basis-[0%] text-sm leading-[17px] font-['HelveticaNeue-Bold','Helvetica_Neue',system-ui,sans-serif] font-bold [color:#FFFFFF]">
+                Energieberatung Held
+              </div>
+              <div className="shrink-0 text-xs leading-[15px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#FFFFFFD1]">
+                09:38
+              </div>
+            </div>
+            <div className="text-sm leading-[17px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] [color:#FFFFFF]">
+              Ihre Anfrage passt — so geht es weiter
+            </div>
+            <div className="text-xs leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#FFFFFFD1]">
+              Guten Tag Frau Reuter, ich habe mir Ihre Anfrage angesehen. Das passt gut zu dem, was ich mache …
+            </div>
+          </div>
+          <div className="flex flex-col shrink-0 pt-[11px] pb-[13px] gap-[3px] px-md border-t border-t-solid border-t-[#E8E8E8]">
+            <div className="flex items-baseline gap-xs">
+              <div className="grow basis-[0%] text-sm leading-[17px] font-['HelveticaNeue-Bold','Helvetica_Neue',system-ui,sans-serif] font-bold text-[#1D1D1F]">
+                Stadtwerke Peine
+              </div>
+              <div className="shrink-0 text-xs leading-[15px] w-max font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]">
+                Gestern
+              </div>
+            </div>
+            <div className="text-sm leading-[17px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+              Ihre Jahresabrechnung 2023
+            </div>
+            <div className="text-xs leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]">
+              Sehr geehrte Frau Reuter, Ihre Abrechnung für das Jahr 2023 steht jetzt zum Download bereit …
+            </div>
+          </div>
+          <div className="flex flex-col shrink-0 pt-[11px] pb-[13px] gap-[3px] px-md border-t border-t-solid border-t-[#E8E8E8]">
+            <div className="flex items-baseline gap-xs">
+              <div className="grow basis-[0%] text-sm leading-[17px] font-['HelveticaNeue-Bold','Helvetica_Neue',system-ui,sans-serif] font-bold text-[#1D1D1F]">
+                Jens Reuter
+              </div>
+              <div className="shrink-0 text-xs leading-[15px] w-max font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]">
+                Gestern
+              </div>
+            </div>
+            <div className="text-sm leading-[17px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+              Re: Das mit dem Dach
+            </div>
+            <div className="text-xs leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]">
+              Klingt gut. Ich schaue am Wochenende in die Unterlagen und melde mich dann bei dir …
+            </div>
+          </div>
+          <div className="flex flex-col shrink-0 pt-[11px] pb-[13px] gap-[3px] px-md border-t border-t-solid border-t-[#E8E8E8]">
+            <div className="flex items-baseline gap-xs">
+              <div className="grow basis-[0%] text-sm leading-[17px] font-['HelveticaNeue-Bold','Helvetica_Neue',system-ui,sans-serif] font-bold text-[#1D1D1F]">
+                Elternrat Grundschule
+              </div>
+              <div className="shrink-0 text-xs leading-[15px] w-max font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]">
+                Montag
+              </div>
+            </div>
+            <div className="text-sm leading-[17px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+              Sommerfest — Helfer gesucht
+            </div>
+            <div className="text-xs leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]">
+              Liebe Eltern, für das Sommerfest am 12. Juli suchen wir noch Helfer für den Kuchenstand …
+            </div>
+          </div>
+          <div className="flex flex-col shrink-0 pt-[11px] pb-[13px] gap-[3px] px-md border-t border-t-solid border-t-[#E8E8E8]">
+            <div className="flex items-baseline gap-xs">
+              <div className="grow basis-[0%] text-sm leading-[17px] font-['HelveticaNeue-Bold','Helvetica_Neue',system-ui,sans-serif] font-bold text-[#1D1D1F]">
+                DHL
+              </div>
+              <div className="shrink-0 text-xs leading-[15px] w-max font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]">
+                Montag
+              </div>
+            </div>
+            <div className="text-sm leading-[17px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+              Ihre Sendung ist unterwegs
+            </div>
+            <div className="text-xs leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]">
+              Ihre Sendung mit der Nummer 00340434 1234 5678 90 wird voraussichtlich morgen …
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col grow basis-[0%] [background-color:#FFFFFF]">
+          <div className="flex items-start shrink-0 pt-[22px] pb-[18px] gap-[14px] px-[40px] border-b border-b-solid border-b-[#E8E8E8]">
+            <div className="w-[38px] h-[38px] shrink-0 flex items-center justify-center rounded-[calc(infinity*1px)] [background-color:#12161B]">
+              <div className="text-sm leading-md font-['HelveticaNeue-Medium','Helvetica_Neue',system-ui,sans-serif] font-medium [color:#FFFFFF]">
+                KH
+              </div>
+            </div>
+            <div className="grow basis-[0%] flex flex-col gap-[3px]">
+              <div className="text-base leading-[19px] font-['HelveticaNeue-Bold','Helvetica_Neue',system-ui,sans-serif] font-bold text-[#1D1D1F]">
+                Energieberatung Held
+              </div>
+              <div className="text-xs leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]">
+                An: Marlene Reuter
+              </div>
+            </div>
+            <div className="shrink-0 flex items-center gap-md">
+              <svg width="17" height="17" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M7.6 5.2L3 9.8l4.6 4.6M3.4 9.8h7.8a5.4 5.4 0 015.4 5.4v1" fill="none" stroke="#4B4B4F" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              <svg width="17" height="17" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M10.4 4.2L14 7.8l-3.6 3.6M14 7.8H8a5 5 0 00-5 5v2.6" fill="none" stroke="#4B4B4F" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              <div className="text-xs leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]">
+                21. Juli 2026, 09:38
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col grow basis-[0%] pt-[30px] px-[40px]">
+            <div className="w-[640px] flex flex-col gap-md">
+              <div className="[font-family:var(--font-display)] text-xl tracking-tight leading-[30px] font-semibold [color:var(--color-fg)]">
+                Ihre Anfrage passt — so geht es weiter
+              </div>
+              <div className="[font-family:var(--font-sans)] text-base leading-lg [color:var(--color-fg)]">
+                Guten Tag Frau Reuter,
+              </div>
+              <div className="[font-family:var(--font-sans)] text-base leading-lg [color:var(--color-fg)]">
+                ich habe mir Ihre Anfrage angesehen — das passt gut zu dem, was ich mache. Ich übernehme das gern.
+              </div>
+              <div className="[font-family:var(--font-sans)] text-base leading-lg [color:var(--color-fg)]">
+                Als Nächstes brauche ich neun Unterlagen von Ihnen. Dafür haben Sie zwei Wege. Beide landen bei mir am selben Ort — nehmen Sie den, der Ihnen lieber ist.
+              </div>
+            </div>
+            <div className="flex w-[640px] pt-[26px] gap-md">
+              <div className="grow basis-[0%] flex flex-col p-[20px] rounded-lg gap-[10px] border border-solid border-border">
+                <div className="[font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm [color:var(--color-fg-subtle)]">
+                  WEG 1 · IM PORTAL
+                </div>
+                <div className="[font-family:var(--font-sans)] text-[14px] leading-[21px] [color:var(--color-fg)]">
+                  Dateien hochladen und jederzeit sehen, was noch fehlt.
+                </div>
+                <div className="flex items-center justify-center h-[40px] mt-2xs rounded-md shrink-0 [background-color:var(--color-brand)]">
+                  <div className="[font-family:var(--font-sans)] text-[14px] leading-[18px] font-medium [color:var(--color-brand-fg)]">
+                    Zu Ihrem Bereich
+                  </div>
+                </div>
+              </div>
+              <div className="grow basis-[0%] flex flex-col p-[20px] rounded-lg gap-[10px] border border-solid border-border">
+                <div className="[font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm [color:var(--color-fg-subtle)]">
+                  WEG 2 · PER MAIL
+                </div>
+                <div className="[font-family:var(--font-sans)] text-[14px] leading-[21px] [color:var(--color-fg)]">
+                  Auf diese Mail antworten und die Dateien anhängen.
+                </div>
+                <div className="flex items-center justify-center h-[40px] mt-2xs rounded-md shrink-0 [background-color:var(--color-surface)] border border-solid [border-color:var(--color-border-strong)]">
+                  <div className="[font-family:var(--font-sans)] text-[14px] leading-[18px] font-medium [color:var(--color-fg)]">
+                    Einfach antworten
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col w-[640px] pt-[28px] gap-sm">
+              <div className="[font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm [color:var(--color-fg-subtle)]">
+                DAS BRAUCHE ICH · NEUN UNTERLAGEN
+              </div>
+              <div className="flex gap-[40px]">
+                <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14px] leading-lg whitespace-pre-wrap [color:var(--color-fg-muted)]">
+                  Grundriss<br />Heizkostenabrechnung 2022<br />Heizkostenabrechnung 2023<br />Heizkostenabrechnung 2024<br />Fotos der Heizung
+                </div>
+                <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14px] leading-lg whitespace-pre-wrap [color:var(--color-fg-muted)]">
+                  Energieausweis, falls vorhanden<br />Grundbuchauszug<br />Wohnflächenberechnung<br />Vollmacht Ihres Bruders
+                </div>
+              </div>
+              <div className="[font-family:var(--font-sans)] pt-sm">
+                <div className="[font-family:var(--font-sans)] text-base leading-lg whitespace-pre-wrap [color:var(--color-fg)]">
+                  Freundliche Grüße<br />Katrin Held
+                </div>
+              </div>
+              <div className="[font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm [color:var(--color-fg-subtle)]">
+                ENERGIEBERATUNG HELD · 31224 PEINE · EEE 184 992
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute left-[0px] top-[26px] w-app h-[874px] bg-[#00000029]" />
+      <div className="absolute left-[300px] top-[120px] w-[840px] h-[620px] flex flex-col rounded-[10px] overflow-clip [box-shadow:#0000004D_0px_26px_70px,#0000001F_0px_2px_8px] [background-color:#FFFFFF]">
+        <div className="flex items-center h-2xl shrink-0 px-md bg-[#F5F5F5] border-b border-b-solid border-b-[#DCDCDC]">
+          <div className="flex items-center shrink-0 gap-xs">
+            <div className="rounded-[calc(infinity*1px)] shrink-0 bg-[#FF5F57] size-sm" />
+            <div className="rounded-[calc(infinity*1px)] shrink-0 bg-[#FEBC2E] size-sm" />
+            <div className="rounded-[calc(infinity*1px)] shrink-0 bg-[#28C840] size-sm" />
+          </div>
+          <div className="grow basis-[0%] flex items-center justify-center">
+            <div className="text-sm leading-md font-['HelveticaNeue-Bold','Helvetica_Neue',system-ui,sans-serif] font-bold text-[#1D1D1F]">
+              Re: Ihre Anfrage passt — so geht es weiter
+            </div>
+          </div>
+          <div className="flex items-center shrink-0 gap-[18px]">
+            <svg width="17" height="17" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+              <path d="M13.4 8.6l-5.6 5.6a3.4 3.4 0 01-4.8-4.8l6-6a2.3 2.3 0 013.2 3.2l-6 6a1.2 1.2 0 01-1.6-1.6l5.4-5.4" fill="none" stroke="#4B4B4F" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+            <svg width="18" height="18" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+              <path d="M17 3L9 11M17 3l-5.2 14-2.8-6-6-2.8z" fill="none" stroke="#0B69F0" strokeWidth="1.5" strokeLinejoin="round" />
+            </svg>
+          </div>
+        </div>
+        <div className="flex flex-col shrink-0 border-b border-b-solid border-b-[#E8E8E8]">
+          <div className="flex items-center h-[38px] px-[20px] gap-sm shrink-0 border-b border-b-solid border-b-[#F0F0F0]">
+            <div className="w-[52px] shrink-0 text-sm leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]">
+              An:
+            </div>
+            <div className="flex items-center h-[22px] px-[9px] rounded-[calc(infinity*1px)] gap-[7px] bg-[#E6EEFB]">
+              <div className="text-xs leading-[15px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#0B69F0]">
+                Energieberatung Held
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center h-[38px] px-[20px] gap-sm shrink-0">
+            <div className="w-[52px] shrink-0 text-sm leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]">
+              Betreff:
+            </div>
+            <div className="text-sm leading-md font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+              Re: Ihre Anfrage passt — so geht es weiter
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col shrink-0 pt-lg pb-[18px] gap-[14px] px-lg">
+          <div className="text-[14px] leading-[22px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+            Guten Tag Frau Held,
+          </div>
+          <div className="text-[14px] leading-[22px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+            anbei erst mal alles, was wir gefunden haben. Die Heizkostenabrechnung für 2024 kommt erst im Februar von den Stadtwerken — die reiche ich nach.
+          </div>
+          <div className="text-[14px] leading-[22px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+            Wegen der Vollmacht spreche ich am Wochenende mit meinem Bruder.
+          </div>
+          <div className="text-[14px] leading-[22px] whitespace-pre-wrap font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+            Viele Grüße<br />Marlene Reuter
+          </div>
+        </div>
+        <div className="flex flex-wrap shrink-0 px-lg gap-[10px]">
+          <div className="flex items-center h-[34px] px-sm rounded-[7px] gap-[9px] bg-[#F2F2F4]">
+            <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+              <path d="M4 2h5l3 3v9H4z" fill="none" stroke="#6E6E73" strokeWidth="1.3" strokeLinejoin="round" />
+              <path d="M9 2v3h3" fill="none" stroke="#6E6E73" strokeWidth="1.3" strokeLinejoin="round" />
+            </svg>
+            <div className="text-xs leading-[15px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+              Grundriss.pdf
+            </div>
+            <div className="text-2xs leading-[14px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]">
+              1,8 MB
+            </div>
+          </div>
+          <div className="flex items-center h-[34px] px-sm rounded-[7px] gap-[9px] bg-[#F2F2F4]">
+            <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+              <path d="M4 2h5l3 3v9H4z" fill="none" stroke="#6E6E73" strokeWidth="1.3" strokeLinejoin="round" />
+              <path d="M9 2v3h3" fill="none" stroke="#6E6E73" strokeWidth="1.3" strokeLinejoin="round" />
+            </svg>
+            <div className="text-xs leading-[15px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+              Heizkosten 2022.pdf
+            </div>
+            <div className="text-2xs leading-[14px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]">
+              0,4 MB
+            </div>
+          </div>
+          <div className="flex items-center h-[34px] px-sm rounded-[7px] gap-[9px] bg-[#F2F2F4]">
+            <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+              <path d="M4 2h5l3 3v9H4z" fill="none" stroke="#6E6E73" strokeWidth="1.3" strokeLinejoin="round" />
+              <path d="M9 2v3h3" fill="none" stroke="#6E6E73" strokeWidth="1.3" strokeLinejoin="round" />
+            </svg>
+            <div className="text-xs leading-[15px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+              Heizkosten 2023.pdf
+            </div>
+            <div className="text-2xs leading-[14px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]">
+              0,4 MB
+            </div>
+          </div>
+          <div className="flex items-center h-[34px] px-sm rounded-[7px] gap-[9px] bg-[#F2F2F4]">
+            <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+              <path d="M4 2h5l3 3v9H4z" fill="none" stroke="#6E6E73" strokeWidth="1.3" strokeLinejoin="round" />
+              <path d="M9 2v3h3" fill="none" stroke="#6E6E73" strokeWidth="1.3" strokeLinejoin="round" />
+            </svg>
+            <div className="text-xs leading-[15px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+              Heizung_Foto.jpg
+            </div>
+            <div className="text-2xs leading-[14px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]">
+              2,6 MB
+            </div>
+          </div>
+          <div className="flex items-center h-[34px] px-sm rounded-[7px] gap-[9px] bg-[#F2F2F4]">
+            <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+              <path d="M4 2h5l3 3v9H4z" fill="none" stroke="#6E6E73" strokeWidth="1.3" strokeLinejoin="round" />
+              <path d="M9 2v3h3" fill="none" stroke="#6E6E73" strokeWidth="1.3" strokeLinejoin="round" />
+            </svg>
+            <div className="text-xs leading-[15px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#1D1D1F]">
+              Wohnfläche.pdf
+            </div>
+            <div className="text-2xs leading-[14px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#86868B]">
+              0,3 MB
+            </div>
+          </div>
+        </div>
+        <div className="flex items-center mt-auto shrink-0 py-[14px] px-lg gap-sm bg-[#F7F8F9] border-t border-t-solid border-t-[#E8E8E8]">
+          <div className="w-[20px] shrink-0 flex justify-center">
+            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+              <circle cx="8" cy="8" r="6" fill="none" stroke="#86868B" strokeWidth="1.3" />
+              <path d="M8 7.4v3.4M8 5.2v.1" fill="none" stroke="#86868B" strokeWidth="1.3" strokeLinecap="round" />
+            </svg>
+          </div>
+          <div className="grow basis-[0%] text-xs leading-[17px] font-['HelveticaNeue','Helvetica_Neue',system-ui,sans-serif] text-[#6E6E73]">
+            5 Anhänge · 5,5 MB. Sie brauchen kein Konto und kein Passwort — die Antwort genügt.
+          </div>
+        </div>
+      </div>
+    </div>
+  )

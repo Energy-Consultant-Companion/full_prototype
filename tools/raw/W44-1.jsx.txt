@@ -1,0 +1,98 @@
+(
+    <div className="[font-synthesis:none] wrap-anywhere flex overflow-clip flex-col relative items-center pt-[162px] [background-color:var(--color-canvas)] antialiased">
+      <div className="absolute left-[40px] top-[36px] flex items-center gap-[9px]">
+        <div className="w-[20px] h-[20px] flex items-center justify-center shrink-0 rounded-[6px] [background-color:var(--color-fg)]">
+          <div className="w-[7px] h-[7px] rounded-[2px] shrink-0 [background-color:var(--color-canvas)]" />
+        </div>
+        <div className="[font-family:var(--font-sans)] text-[14px] tracking-mono font-semibold leading-[18px] [color:var(--color-fg)]">
+          Energieberatung Held
+        </div>
+      </div>
+      <div className="w-[520px] flex flex-col items-start relative">
+        <div className="w-[40px] h-[40px] shrink-0">
+          <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+            <rect x="4.6" y="9.2" width="30.8" height="21.6" rx="3.2" fill="none" stroke="var(--color-accent-green)" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M5.8 11.4 20 21.6l14.2-10.2" fill="none" stroke="var(--color-accent-green)" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </div>
+        <div className="flex mt-[20px] gap-[5px]">
+          <div className="w-[40px] h-[3px] rounded-[999px] shrink-0 [background-color:var(--color-fg)]" />
+          <div className="w-[40px] h-[3px] rounded-[999px] shrink-0 [background-color:var(--color-fg)]" />
+          <div className="w-[40px] h-[3px] rounded-[999px] shrink-0 [background-color:var(--color-fg)]" />
+          <div className="w-[40px] h-[3px] rounded-[999px] shrink-0 [background-color:var(--color-fg)]" />
+        </div>
+        <div className="w-[520px] flex flex-col mt-[26px]">
+          <div className="[font-family:var(--font-display)] text-2xl tracking-[-0.025em] leading-[36px] font-semibold [color:var(--color-fg)]">
+            Erzählen Sie kurz, worum es geht.
+          </div>
+          <div className="[font-family:var(--font-sans)] text-base leading-[22px] mt-[7px] [color:var(--color-fg-muted)]">
+            Zwei Sätze genügen. Was stört, was Sie vorhaben, was Sie schon wissen.
+          </div>
+        </div>
+        <div className="w-[520px] flex flex-col mt-[28px] gap-[22px]">
+          <div className="w-[520px] flex flex-col items-end">
+            <div className="w-[520px] h-[132px] py-[14px] px-md rounded-[10px] shrink-0 [background-color:var(--color-surface)] border border-solid border-border">
+              <div className="[font-family:var(--font-sans)] text-base leading-[23px] [color:var(--color-fg)]">
+                Unsere Ölheizung ist von 1998 und war letzten Winter zweimal aus. Wir würden auf Wärmepumpe wechseln, wissen aber nicht, ob das Haus dafür überhaupt gedämmt genug ist. Baujahr 1972, wir haben 1998 neue Fenster einbauen lassen.
+              </div>
+            </div>
+            <div className="[font-family:var(--font-mono)] text-2xs tracking-wide mt-[7px] leading-[14px] [color:var(--color-fg-subtle)]">
+              238 Zeichen
+            </div>
+          </div>
+          <div className="w-[520px] flex flex-col gap-sm">
+            <div className="[font-family:var(--font-sans)] text-base tracking-mono font-semibold leading-[18px] [color:var(--color-fg)]">
+              Wohin schicke ich die Antwort?
+            </div>
+            <div className="w-[520px] flex gap-[10px]">
+              <div className="w-[255px] h-[44px] flex items-center px-[14px] rounded-[10px] shrink-0 [background-color:var(--color-surface)] border border-solid border-border">
+                <div className="[font-family:var(--font-sans)] text-base leading-[18px] [color:var(--color-fg)]">
+                  Tobias Sander
+                </div>
+              </div>
+              <div className="w-[255px] h-[44px] flex items-center px-[14px] rounded-[10px] shrink-0 [background-color:var(--color-surface)] border border-solid border-border">
+                <div className="[font-family:var(--font-sans)] text-base leading-[18px] [color:var(--color-fg)]">
+                  31224 Peine
+                </div>
+              </div>
+            </div>
+            <div className="w-[520px] h-[44px] flex items-center px-[14px] rounded-[10px] gap-[10px] shrink-0 [background-color:var(--color-surface)] border border-solid border-border">
+              <svg width="17" height="17" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <rect x="2.8" y="5.4" width="18.4" height="13.2" rx="2" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M3.6 6.8 12 13l8.4-6.2" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              <div className="[font-family:var(--font-sans)] text-base grow leading-[18px] [color:var(--color-fg)]">
+                t.sander@posteo.de
+              </div>
+              <div className="[font-family:var(--font-sans)] text-xs shrink-0 font-medium leading-md [color:var(--color-fg-subtle)]">
+                Hierhin geht der Zugang
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="w-[520px] h-[42px] flex items-center justify-center mt-[28px] rounded-[10px] gap-xs shrink-0 [background-color:var(--color-brand)]">
+          <div className="[font-family:var(--font-sans)] text-base tracking-[-0.005em] font-semibold leading-[18px] [color:var(--color-brand-fg)]">
+            Anfrage senden
+          </div>
+          <svg width="15" height="15" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+            <path d="M4.5 12h14.5" fill="none" stroke="var(--color-brand-fg)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M13 6.2 19 12l-6 5.8" fill="none" stroke="var(--color-brand-fg)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </div>
+      </div>
+      <div className="absolute left-[0px] bottom-[40px] w-app flex items-center justify-center gap-[7px]">
+        <svg width="13" height="13" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+          <path d="M5.5 10.5h13v10h-13z" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M8.6 10.5V7.4a3.4 3.4 0 0 1 6.8 0v3.1" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+        <div className="[font-family:var(--font-sans)] text-sm leading-md [color:var(--color-fg-subtle)]">
+          Verschlüsselt übertragen · kein Konto nötig · jederzeit abbrechbar
+        </div>
+      </div>
+      <div className="absolute left-[396px] top-[166px] flex items-center justify-center rounded-[999px] [background-color:var(--color-surface)] border border-solid border-border size-xl">
+        <svg width="15" height="15" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+          <path d="M14.5 5.5 8 12l6.5 6.5" fill="none" stroke="var(--color-fg-muted)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      </div>
+    </div>
+  )

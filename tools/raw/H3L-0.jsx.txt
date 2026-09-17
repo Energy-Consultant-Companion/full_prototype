@@ -1,0 +1,609 @@
+(
+    <div className="[font-synthesis:none] wrap-anywhere flex overflow-clip relative [background-color:var(--color-surface)] antialiased">
+      <div className="flex flex-col w-rail h-[900px] shrink-0 pt-[20px] pb-md px-md [background-color:var(--color-surface-sunken)] border-r border-r-solid border-r-border">
+        <div className="flex items-center justify-between pb-[18px] px-xs">
+          <div className="flex items-center gap-[10px]">
+            <div className="[font-family:var(--font-display)] text-base tracking-tight font-semibold leading-[18px] [color:var(--color-fg)]">
+              ENSERA
+            </div>
+          </div>
+          <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+            <rect x="1.5" y="2.5" width="13" height="11" rx="2" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.3" />
+            <path d="M10 2.5v11" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.3" />
+          </svg>
+        </div>
+        <div className="flex items-center h-[38px] shrink-0 px-[10px] rounded-md gap-xs [box-shadow:#12161B0F_0px_1px_2px] [background-color:var(--color-surface)] border border-solid border-border">
+          <svg width="15" height="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+            <circle cx="7.2" cy="7.2" r="4.5" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.3" />
+            <path d="M10.6 10.6L13.6 13.6" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.3" strokeLinecap="round" />
+          </svg>
+          <div className="grow basis-[0%] [font-family:var(--font-sans)] text-sm leading-md [color:var(--color-fg-subtle)]">
+            Suchen oder fragen
+          </div>
+          <div className="shrink-0 [font-family:var(--font-mono)] text-2xs leading-[14px] [color:var(--color-fg-subtle)]">
+            ⌘K
+          </div>
+        </div>
+        <div className="flex flex-col pt-[26px] gap-3xs">
+          <div className="flex flex-col gap-3xs">
+            <div className="pb-[10px] px-xs">
+              <div className="[font-family:var(--font-mono)] text-2xs tracking-caps leading-[14px] [color:var(--color-fg-subtle)]">
+                ARBEIT
+              </div>
+            </div>
+            <div className="flex items-center h-[36px] shrink-0 px-[10px] rounded-md gap-sm">
+              <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <rect x="2.4" y="2.4" width="8.7" height="8.7" rx="3" fill="var(--color-section-ueberblick)" />
+                <rect x="12.9" y="2.4" width="8.7" height="8.7" rx="3" fill="var(--color-section-ueberblick-soft)" />
+                <rect x="2.4" y="12.9" width="8.7" height="8.7" rx="3" fill="var(--color-section-ueberblick-soft)" />
+                <rect x="12.9" y="12.9" width="8.7" height="8.7" rx="3" fill="var(--color-section-ueberblick)" />
+              </svg>
+              <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14px] leading-[18px] [color:var(--color-fg-muted)]">
+                Überblick
+              </div>
+              <div className="w-lg shrink-0" />
+            </div>
+            <div className="flex items-center h-[36px] shrink-0 px-[10px] rounded-md gap-sm">
+              <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M2.4 6.2a3.2 3.2 0 0 1 3.2-3.2h3.7a2.1 2.1 0 0 1 1.63.78l1.57 1.94h6.3a3.2 3.2 0 0 1 3.2 3.2v9.3a3.2 3.2 0 0 1-3.2 3.2H5.6a3.2 3.2 0 0 1-3.2-3.2z" fill="var(--color-section-faelle)" />
+                <path d="M2.4 15.2a3.2 3.2 0 0 1 3.2-3.2h12.8a3.2 3.2 0 0 1 3.2 3.2v3a3.2 3.2 0 0 1-3.2 3.2H5.6a3.2 3.2 0 0 1-3.2-3.2z" fill="var(--color-section-faelle-soft)" stroke="#FFFFFF" strokeWidth="1.8" />
+              </svg>
+              <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14px] leading-[18px] [color:var(--color-fg-muted)]">
+                Fälle
+              </div>
+              <div className="w-lg shrink-0 text-right [font-family:var(--font-mono)] text-2xs leading-[14px] flex justify-end flex-wrap [color:var(--color-fg-subtle)]">
+                12
+              </div>
+            </div>
+            <div className="flex items-center h-[36px] shrink-0 px-[10px] rounded-md gap-sm">
+              <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <rect x="2.4" y="2.4" width="19.2" height="19.2" rx="5.8" fill="var(--color-section-schritte-soft)" />
+                <path d="M6.9 12.2 10.3 15.5 17.1 7.9" fill="none" stroke="var(--color-section-schritte)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14px] leading-[18px] [color:var(--color-fg-muted)]">
+                Nächste Schritte
+              </div>
+              <div className="w-lg shrink-0 text-right [font-family:var(--font-mono)] text-2xs leading-[14px] flex justify-end flex-wrap [color:var(--color-fg-subtle)]">
+                3
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col pt-lg gap-3xs">
+            <div className="pb-[10px] px-xs">
+              <div className="[font-family:var(--font-mono)] text-2xs tracking-caps leading-[14px] [color:var(--color-fg-subtle)]">
+                PRÜFEN
+              </div>
+            </div>
+            <div className="flex items-center h-[36px] shrink-0 px-[10px] rounded-md gap-sm">
+              <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M4 5.6a3 3 0 0 1 3-3h6.6v4.5a2.4 2.4 0 0 0 2.4 2.4H20v9a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3z" fill="var(--color-section-unterlagen-soft)" />
+                <path d="M14.2 2.7 20.1 8.6a1 1 0 0 1-.7 1.7h-3a2.4 2.4 0 0 1-2.4-2.4V3.4a1 1 0 0 1 .2-.7z" fill="var(--color-section-unterlagen)" />
+                <rect x="7.4" y="12.4" width="9" height="2.4" rx="1.2" fill="var(--color-section-unterlagen)" />
+                <rect x="7.4" y="16.3" width="5.8" height="2.4" rx="1.2" fill="var(--color-section-unterlagen)" />
+              </svg>
+              <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14px] leading-[18px] [color:var(--color-fg-muted)]">
+                Unterlagen
+              </div>
+              <div className="w-lg shrink-0 text-right [font-family:var(--font-mono)] text-2xs leading-[14px] flex justify-end flex-wrap [color:var(--color-fg-subtle)]">
+                5
+              </div>
+            </div>
+            <div className="flex items-center h-[36px] shrink-0 px-[10px] rounded-md gap-sm">
+              <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M12 2.9 20.2 6.1v6.1c0 4.3-3.2 7.8-8.2 9-5-1.2-8.2-4.7-8.2-9V6.1z" fill="var(--color-section-foerderung-soft)" stroke="var(--color-section-foerderung-soft)" strokeWidth="2.6" strokeLinejoin="round" />
+                <path d="M12 7.6 16.6 9.4v3.1c0 2.4-1.8 4.4-4.6 5.1-2.8-.7-4.6-2.7-4.6-5.1V9.4z" fill="var(--color-section-foerderung)" stroke="var(--color-section-foerderung)" strokeWidth="2.2" strokeLinejoin="round" />
+              </svg>
+              <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14px] leading-[18px] [color:var(--color-fg-muted)]">
+                Förderung
+              </div>
+              <div className="flex items-center justify-center w-lg h-[18px] shrink-0 rounded-xs [background-color:var(--color-brand)]">
+                <div className="[font-family:var(--font-mono)] text-2xs leading-[14px] [color:var(--color-brand-fg)]">
+                  2
+                </div>
+              </div>
+            </div>
+            <div className="items-center flex shrink-0 h-[36px] px-[10px] rounded-md gap-sm">
+              <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <rect x="3" y="2.8" width="18" height="18.4" rx="4.2" fill="#D9BE9C" />
+                <path d="M3 7a4.2 4.2 0 0 1 4.2-4.2h2.6v18.4H7.2A4.2 4.2 0 0 1 3 17z" fill="#96602F" />
+                <path d="M13 2.8h3.6v8.8l-1.8-1.7-1.8 1.7z" fill="#96602F" />
+              </svg>
+              <div className="basis-[0%] grow [font-family:var(--font-sans)] text-[14px] leading-[18px] [color:var(--color-fg-muted)]">
+                Regulierungen
+              </div>
+              <div className="shrink-0 [font-family:var(--font-mono)] text-2xs leading-[14px] text-right w-lg flex justify-end flex-wrap [color:var(--color-fg-subtle)]">
+                9
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col pt-lg gap-3xs">
+            <div className="pb-[10px] px-xs">
+              <div className="[font-family:var(--font-mono)] text-2xs tracking-caps leading-[14px] [color:var(--color-fg-subtle)]">
+                KONTAKT
+              </div>
+            </div>
+            <div className="flex items-center h-[36px] shrink-0 px-[10px] rounded-md gap-sm">
+              <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <rect x="2.2" y="4.8" width="19.6" height="15" rx="4.4" fill="var(--color-section-anfragen-soft)" />
+                <path d="M2.4 7.4A4.4 4.4 0 0 1 6.6 4.8h10.8a4.4 4.4 0 0 1 4.2 2.6l-7.8 5.9a3.6 3.6 0 0 1-3.6 0z" fill="var(--color-section-anfragen)" />
+              </svg>
+              <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14px] leading-[18px] [color:var(--color-fg-muted)]">
+                Anfragen
+              </div>
+              <div className="flex items-center justify-center w-lg h-[18px] shrink-0 rounded-xs [background-color:var(--color-brand)]">
+                <div className="[font-family:var(--font-mono)] text-2xs leading-[14px] [color:var(--color-brand-fg)]">
+                  2
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center h-[36px] shrink-0 px-[10px] rounded-md gap-sm [box-shadow:#12161B0F_0px_1px_2px] [background-color:var(--color-surface)] border border-solid border-border">
+              <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <rect x="7.2" y="2.2" width="14.8" height="11.8" rx="4.4" fill="var(--color-section-fragen)" />
+                <path d="M6.5 8.4H12.7A4.6 4.6 0 0 1 17.3 13V15.2A4.6 4.6 0 0 1 12.7 19.8H9.9L5.8 22.6V19.5A4.6 4.6 0 0 1 1.9 15V13A4.6 4.6 0 0 1 6.5 8.4Z" fill="var(--color-section-fragen-soft)" stroke="#FFFFFF" strokeWidth="1.8" strokeLinejoin="round" />
+              </svg>
+              <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14px] leading-[18px] font-medium [color:var(--color-fg)]">
+                Fragen
+              </div>
+              <div className="flex items-center justify-center w-lg h-[18px] shrink-0 rounded-xs [background-color:var(--color-brand)]">
+                <div className="[font-family:var(--font-mono)] text-2xs leading-[14px] [color:var(--color-brand-fg)]">
+                  3
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col items-center justify-end pt-[26px] gap-3xs">
+          <div className="[font-family:var(--font-mono)] self-stretch h-[22px] pb-[10px] shrink-0 px-[10px]" />
+          <div className="flex items-center h-[34px] self-stretch shrink-0 px-[10px] rounded-md gap-sm [box-shadow:#12161B0F_0px_1px_2px] [background-color:var(--color-surface)] border border-solid border-border">
+            <div className="w-md shrink-0 flex justify-center">
+              <svg width="15" height="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M13.4 8.6c0 2.5-2.4 4.5-5.4 4.5-.7 0-1.4-.1-2-.3L3 13.8l.6-2.3A4.3 4.3 0 012.6 8.6c0-2.5 2.4-4.5 5.4-4.5s5.4 2 5.4 4.5z" fill="none" stroke="var(--color-section-fragen)" strokeWidth="1.3" strokeLinejoin="round" />
+                <path d="M8 6.9v3.4M6.3 8.6h3.4" fill="none" stroke="var(--color-section-fragen)" strokeWidth="1.3" strokeLinecap="round" />
+              </svg>
+            </div>
+            <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14px] leading-[18px] font-medium [color:var(--color-fg)]">
+              Frage stellen
+            </div>
+            <div className="shrink-0 [font-family:var(--font-mono)] text-2xs leading-[14px] [color:var(--color-fg-subtle)]">
+              ⌘N
+            </div>
+          </div>
+          <div className="flex items-center h-[34px] self-stretch shrink-0 px-[10px] rounded-md gap-sm">
+            <div className="w-md shrink-0 flex justify-center">
+              <svg width="15" height="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M9.4 3.2l3.4 3-3.4 3" fill="none" stroke="var(--color-fg-muted)" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M12.8 6.2H6.6a3.8 3.8 0 00-3.8 3.8v2.8" fill="none" stroke="var(--color-fg-muted)" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </div>
+            <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14px] leading-[18px] [color:var(--color-fg)]">
+              Frage weiterleiten
+            </div>
+          </div>
+          <div className="flex items-center h-[34px] self-stretch shrink-0 px-[10px] rounded-md gap-sm">
+            <div className="w-md shrink-0 flex justify-center">
+              <svg width="15" height="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M4 2h5l3 3v9H4z" fill="none" stroke="var(--color-fg-muted)" strokeWidth="1.3" strokeLinejoin="round" />
+                <path d="M9 2v3h3M6 9h4M6 11.4h2.6" fill="none" stroke="var(--color-fg-muted)" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </div>
+            <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14px] leading-[18px] [color:var(--color-fg)]">
+              Antwortvorlage anlegen
+            </div>
+          </div>
+          <div className="flex items-center h-[34px] self-stretch shrink-0 px-[10px] rounded-md gap-sm">
+            <div className="w-md shrink-0 flex justify-center">
+              <svg width="15" height="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M2.6 4.6h10.8M2.6 8h10.8M2.6 11.4h10.8" fill="none" stroke="var(--color-fg-muted)" strokeWidth="1.3" strokeLinecap="round" />
+                <circle cx="6" cy="4.6" r="1.5" fill="var(--color-surface-sunken)" stroke="var(--color-fg-muted)" strokeWidth="1.3" />
+                <circle cx="10.4" cy="8" r="1.5" fill="var(--color-surface-sunken)" stroke="var(--color-fg-muted)" strokeWidth="1.3" />
+                <circle cx="5.2" cy="11.4" r="1.5" fill="var(--color-surface-sunken)" stroke="var(--color-fg-muted)" strokeWidth="1.3" />
+              </svg>
+            </div>
+            <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14px] leading-[18px] [color:var(--color-fg)]">
+              Automatik einstellen
+            </div>
+          </div>
+          <div className="flex items-center h-[34px] mt-[6px] self-stretch shrink-0 px-[10px] rounded-md gap-sm border-t border-t-solid border-t-border">
+            <div className="w-md shrink-0 flex justify-center">
+              <svg width="15" height="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <circle cx="4.3" cy="4.3" r="1.5" fill="var(--color-fg-muted)" />
+                <circle cx="11.7" cy="4.3" r="1.5" fill="var(--color-fg-muted)" />
+                <circle cx="4.3" cy="11.7" r="1.5" fill="var(--color-fg-muted)" />
+                <circle cx="11.7" cy="11.7" r="1.5" fill="var(--color-fg-muted)" />
+              </svg>
+            </div>
+            <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14px] leading-[18px] [color:var(--color-fg)]">
+              Alle Aktionen
+            </div>
+            <div className="shrink-0 [font-family:var(--font-mono)] text-2xs leading-[14px] [color:var(--color-fg-subtle)]">
+              ⌘P
+            </div>
+          </div>
+        </div>
+        <div className="flex items-center mt-auto px-2xs gap-[6px]">
+          <div className="flex items-center justify-center shrink-0 rounded-md size-xl">
+            <svg width="15" height="15" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+              <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.8" strokeLinejoin="round" />
+              <circle cx="12" cy="12" r="3" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.8" />
+            </svg>
+          </div>
+        </div>
+        <div className="flex items-center h-[52px] mt-[14px] px-sm rounded-lg gap-2xs shrink-0 [box-shadow:#12161B0F_0px_1px_2px] [background-color:var(--color-surface)] border border-solid border-border">
+          <div className="w-[28px] h-[28px] flex items-center justify-center rounded-[calc(infinity*1px)] shrink-0 [background-color:var(--color-fg)]">
+            <div className="flex-1 rounded-[calc(infinity*1px)] self-stretch bg-cover bg-position-[50%]" style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01KYW948ZCHHGYZSKYHX8FC4E5/01M2GQN4CR7RWW9Y5PHMVV4N85.png)' }} />
+          </div>
+          <div className="flex flex-col grow basis-[0%] gap-px px-[5px]">
+            <div className="[font-family:var(--font-sans)] text-sm font-medium leading-md [color:var(--color-fg)]">
+              Katrin Held
+            </div>
+          </div>
+          <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+            <path d="M4.6 5.6L7 3.2l2.4 2.4M4.6 8.4L7 10.8l2.4-2.4" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </div>
+      </div>
+      <div className="flex flex-col w-[1176px] h-[900px] shrink-0 pt-[40px] px-[40px] [background-color:var(--color-surface)]">
+        <div className="flex items-baseline justify-between pb-[28px]">
+          <div className="flex flex-col gap-[6px]">
+            <div className="[font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm [color:var(--color-fg-subtle)]">
+              FRAGEN AUS PORTAL UND E-MAIL
+            </div>
+            <div className="[font-family:var(--font-display)] text-2xl tracking-tight leading-[34px] font-semibold [color:var(--color-fg)]">
+              Drei Antworten warten auf Sie.
+            </div>
+          </div>
+          <div className="[font-family:var(--font-mono)] text-2xs tracking-caps leading-[14px] [color:var(--color-fg-subtle)]">
+            3 OFFEN · 5 BEANTWORTET
+          </div>
+        </div>
+        <div className="flex flex-col">
+          <div className="flex items-center pb-xs gap-sm border-b border-b-solid border-b-border">
+            <div className="[font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm [color:var(--color-fg)]">
+              OFFEN
+            </div>
+            <div className="grow basis-[0%]" />
+            <div className="[font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm [color:var(--color-fg-subtle)]">
+              SIE ENTSCHEIDEN
+            </div>
+          </div>
+          <div className="flex items-start py-[20px] px-sm rounded-md gap-[20px] [background-color:var(--color-brand-surface)] border-b border-b-solid border-b-border-subtle">
+            <div className="w-md shrink-0 flex justify-center pt-3xs">
+              <svg width="15" height="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M8 1.8l4.8 1.7v4c0 3-2 5.4-4.8 6.7C5.2 12.9 3.2 10.5 3.2 7.5v-4z" fill="none" stroke="var(--color-feedback-error)" strokeWidth="1.3" strokeLinejoin="round" />
+                <path d="M8 5.4v3M8 10.6v.1" fill="none" stroke="var(--color-feedback-error)" strokeWidth="1.3" strokeLinecap="round" />
+              </svg>
+            </div>
+            <div className="w-[230px] shrink-0 flex flex-col gap-[5px]">
+              <div className="[font-family:var(--font-sans)] text-[14px] leading-[18px] font-medium [color:var(--color-fg)]">
+                Familie Reuter
+              </div>
+              <div className="[font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm [color:var(--color-fg-muted)]">
+                BUCHENWEG 14 · BAFA EBW
+              </div>
+            </div>
+            <div className="grow basis-[0%] flex flex-col gap-[9px]">
+              <div className="[font-family:var(--font-sans)] text-md leading-lg [color:var(--color-fg)]">
+                „Können wir die Fenster schon im Herbst tauschen lassen?“
+              </div>
+              <div className="[font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm [color:var(--color-feedback-error)]">
+                FÖRDERUNG IN GEFAHR · ENTWURF LIEGT ZUR FREIGABE BEREIT
+              </div>
+            </div>
+            <div className="w-[120px] shrink-0 [font-family:var(--font-mono)] justify-items-end pt-2xs">
+              <div className="[font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm text-right flex justify-end flex-wrap [color:var(--color-fg-muted)]">
+                SEIT 3 STD
+              </div>
+            </div>
+            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', marginTop: '4px' }}>
+              <path d="M6 3.5L10.5 8 6 12.5" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </div>
+          <div className="flex items-start py-[20px] px-sm rounded-md gap-[20px] border-b border-b-solid border-b-border-subtle">
+            <div className="w-md shrink-0 flex justify-center pt-3xs">
+              <svg width="15" height="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M14 8.6c0 2.8-2.7 5-6 5-.7 0-1.4-.1-2-.3L2.2 14.2l1-2.6C2.4 10.8 2 9.7 2 8.6c0-2.8 2.7-5 6-5s6 2.2 6 5z" fill="none" stroke="var(--color-fg-muted)" strokeWidth="1.3" strokeLinejoin="round" />
+              </svg>
+            </div>
+            <div className="w-[230px] shrink-0 flex flex-col gap-[5px]">
+              <div className="[font-family:var(--font-sans)] text-[14px] leading-[18px] font-medium [color:var(--color-fg)]">
+                Silke Petersen
+              </div>
+              <div className="[font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm [color:var(--color-fg-muted)]">
+                HAUPTSTRASSE 41 · KFW 458
+              </div>
+            </div>
+            <div className="grow basis-[0%] flex flex-col gap-[9px]">
+              <div className="[font-family:var(--font-sans)] text-md leading-lg [color:var(--color-fg)]">
+                „Muss ich den Zuschuss in der Steuererklärung angeben?“
+              </div>
+              <div className="[font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm [color:var(--color-fg-muted)]">
+                KEINE STEUERAUSKUNFT · ENSERA DARF DAS NICHT BEANTWORTEN
+              </div>
+            </div>
+            <div className="w-[120px] shrink-0 [font-family:var(--font-mono)] justify-items-end pt-2xs">
+              <div className="[font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm text-right flex justify-end flex-wrap [color:var(--color-fg-muted)]">
+                SEIT GESTERN
+              </div>
+            </div>
+            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', marginTop: '4px' }}>
+              <path d="M6 3.5L10.5 8 6 12.5" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </div>
+          <div className="flex items-start py-[20px] px-sm rounded-md gap-[20px]">
+            <div className="w-md shrink-0 flex justify-center pt-3xs">
+              <svg width="15" height="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M14 8.6c0 2.8-2.7 5-6 5-.7 0-1.4-.1-2-.3L2.2 14.2l1-2.6C2.4 10.8 2 9.7 2 8.6c0-2.8 2.7-5 6-5s6 2.2 6 5z" fill="none" stroke="var(--color-fg-muted)" strokeWidth="1.3" strokeLinejoin="round" />
+              </svg>
+            </div>
+            <div className="w-[230px] shrink-0 flex flex-col gap-[5px]">
+              <div className="[font-family:var(--font-sans)] text-[14px] leading-[18px] font-medium [color:var(--color-fg)]">
+                Anja Kowalski
+              </div>
+              <div className="[font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm [color:var(--color-fg-muted)]">
+                AM WALL 27 · BAFA EBW
+              </div>
+            </div>
+            <div className="grow basis-[0%] flex flex-col gap-[9px]">
+              <div className="[font-family:var(--font-sans)] text-md leading-lg [color:var(--color-fg)]">
+                „Was passiert, wenn wir das Haus vorher verkaufen?“
+              </div>
+              <div className="[font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm [color:var(--color-fg-muted)]">
+                NICHT IM REGELWERK · KEIN ENTWURF — SIE SCHREIBEN SELBST
+              </div>
+            </div>
+            <div className="w-[120px] shrink-0 [font-family:var(--font-mono)] justify-items-end pt-2xs">
+              <div className="[font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm text-right flex justify-end flex-wrap [color:var(--color-fg-muted)]">
+                SEIT 2 TAGEN
+              </div>
+            </div>
+            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', marginTop: '4px' }}>
+              <path d="M6 3.5L10.5 8 6 12.5" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </div>
+        </div>
+        <div className="flex flex-col mt-[44px]">
+          <div className="flex items-center pb-xs gap-sm border-b border-b-solid border-b-border">
+            <div className="[font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm [color:var(--color-fg-muted)]">
+              BEANTWORTET
+            </div>
+            <div className="grow basis-[0%]" />
+            <div className="[font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm [color:var(--color-fg-subtle)]">
+              LIEGT IN DER FALLHISTORIE
+            </div>
+          </div>
+          <div className="flex items-center py-[13px] px-sm gap-[20px] border-b border-b-solid border-b-border-subtle">
+            <div className="w-md shrink-0 flex justify-center">
+              <svg width="13" height="13" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M2.5 7.2l3 3 6-6.4" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </div>
+            <div className="w-[230px] shrink-0 [font-family:var(--font-sans)] text-sm leading-[17px] font-medium [color:var(--color-fg-muted)]">
+              Familie Reuter
+            </div>
+            <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14px] leading-[20px] [color:var(--color-fg-muted)]">
+              „Wann kommt Frau Held zum Termin?“
+            </div>
+            <div className="w-[220px] shrink-0 [font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm [color:var(--color-fg-subtle)]">
+              AUTOMATISCH BEANTWORTET
+            </div>
+            <div className="w-[120px] shrink-0 text-right [font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm flex justify-end flex-wrap [color:var(--color-fg-subtle)]">
+              GESTERN · 19:41
+            </div>
+            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+              <path d="M6 3.5L10.5 8 6 12.5" fill="none" stroke="var(--color-border-strong)" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </div>
+          <div className="flex items-center py-[13px] px-sm gap-[20px] border-b border-b-solid border-b-border-subtle">
+            <div className="w-md shrink-0 flex justify-center">
+              <svg width="13" height="13" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M2.5 7.2l3 3 6-6.4" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </div>
+            <div className="w-[230px] shrink-0 [font-family:var(--font-sans)] text-sm leading-[17px] font-medium [color:var(--color-fg-muted)]">
+              Familie Reuter
+            </div>
+            <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14px] leading-[20px] [color:var(--color-fg-muted)]">
+              „Lohnt sich bei uns eine Wärmepumpe überhaupt?“
+            </div>
+            <div className="w-[220px] shrink-0 [font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm [color:var(--color-fg-subtle)]">
+              ENTWURF VON IHNEN FREIGEGEBEN
+            </div>
+            <div className="w-[120px] shrink-0 text-right [font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm flex justify-end flex-wrap [color:var(--color-fg-subtle)]">
+              05.08. · 09:02
+            </div>
+            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+              <path d="M6 3.5L10.5 8 6 12.5" fill="none" stroke="var(--color-border-strong)" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </div>
+          <div className="flex items-center py-[13px] px-sm gap-[20px] border-b border-b-solid border-b-border-subtle">
+            <div className="w-md shrink-0 flex justify-center">
+              <svg width="13" height="13" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M2.5 7.2l3 3 6-6.4" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </div>
+            <div className="w-[230px] shrink-0 [font-family:var(--font-sans)] text-sm leading-[17px] font-medium [color:var(--color-fg-muted)]">
+              Hans-Jürgen Brendel
+            </div>
+            <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14px] leading-[20px] [color:var(--color-fg-muted)]">
+              „Warum braucht die BAFA noch eine Bestätigung von mir?“
+            </div>
+            <div className="w-[220px] shrink-0 [font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm [color:var(--color-fg-subtle)]">
+              ENTWURF VON IHNEN BEARBEITET
+            </div>
+            <div className="w-[120px] shrink-0 text-right [font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm flex justify-end flex-wrap [color:var(--color-fg-subtle)]">
+              05.08. · 08:14
+            </div>
+            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+              <path d="M6 3.5L10.5 8 6 12.5" fill="none" stroke="var(--color-border-strong)" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </div>
+          <div className="flex items-center py-[13px] px-sm gap-[20px] border-b border-b-solid border-b-border-subtle">
+            <div className="w-md shrink-0 flex justify-center">
+              <svg width="13" height="13" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M2.5 7.2l3 3 6-6.4" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </div>
+            <div className="w-[230px] shrink-0 [font-family:var(--font-sans)] text-sm leading-[17px] font-medium [color:var(--color-fg-muted)]">
+              Mert Yildirim
+            </div>
+            <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14px] leading-[20px] [color:var(--color-fg-muted)]">
+              „Wann kommt das Geld von der KfW?“
+            </div>
+            <div className="w-[220px] shrink-0 [font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm [color:var(--color-fg-subtle)]">
+              AUTOMATISCH BEANTWORTET
+            </div>
+            <div className="w-[120px] shrink-0 text-right [font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm flex justify-end flex-wrap [color:var(--color-fg-subtle)]">
+              04.08. · 16:30
+            </div>
+            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+              <path d="M6 3.5L10.5 8 6 12.5" fill="none" stroke="var(--color-border-strong)" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </div>
+          <div className="flex items-center py-[13px] px-sm gap-[20px]">
+            <div className="w-md shrink-0 flex justify-center">
+              <svg width="13" height="13" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M2.5 7.2l3 3 6-6.4" fill="none" stroke="var(--color-fg-subtle)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </div>
+            <div className="w-[230px] shrink-0 [font-family:var(--font-sans)] text-sm leading-[17px] font-medium [color:var(--color-fg-muted)]">
+              Anja Kowalski
+            </div>
+            <div className="grow basis-[0%] [font-family:var(--font-sans)] text-[14px] leading-[20px] [color:var(--color-fg-muted)]">
+              „Dürfen wir das Dach selbst dämmen?“
+            </div>
+            <div className="w-[220px] shrink-0 [font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm [color:var(--color-fg-subtle)]">
+              VON IHNEN SELBST GESCHRIEBEN
+            </div>
+            <div className="w-[120px] shrink-0 text-right [font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm flex justify-end flex-wrap [color:var(--color-fg-subtle)]">
+              01.08. · 11:20
+            </div>
+            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+              <path d="M6 3.5L10.5 8 6 12.5" fill="none" stroke="var(--color-border-strong)" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div className="absolute left-[0px] top-[0px] w-app h-[900px] flex items-center justify-center [backdrop-filter:blur(5px)] bg-[#12161B38]">
+        <div className="flex flex-col w-[1040px] rounded-xl overflow-clip shrink-0 [box-shadow:#12161B38_0px_24px_64px,#12161B14_0px_2px_6px] [background-color:var(--color-surface)] border border-solid border-border">
+          <div className="flex items-start pt-xl pb-[26px] gap-xl px-[36px] border-b border-b-solid border-b-border-subtle">
+            <div className="grow basis-[0%] flex flex-col gap-sm">
+              <div className="[font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm [color:var(--color-fg-subtle)]">
+                FAMILIE REUTER · BUCHENWEG 14 · BAFA EBW · iSFP
+              </div>
+              <div className="[font-family:var(--font-display)] text-2xl tracking-tight leading-[36px] font-semibold [color:var(--color-fg)]">
+                „Können wir die Fenster schon im Herbst tauschen lassen?“
+              </div>
+            </div>
+            <div className="flex items-center justify-center w-[34px] h-[34px] shrink-0 rounded-md border border-solid border-border">
+              <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <path d="M3.4 3.4l7.2 7.2M10.6 3.4l-7.2 7.2" fill="none" stroke="var(--color-fg-muted)" strokeWidth="1.5" strokeLinecap="round" />
+              </svg>
+            </div>
+          </div>
+          <div className="flex">
+            <div className="grow basis-[0%] flex flex-col pt-[28px] pb-xl gap-[18px] px-[36px]">
+              <div className="flex items-center justify-between gap-md">
+                <div className="[font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm [color:var(--color-fg-subtle)]">
+                  ENTWURF VON ENSERA
+                </div>
+              </div>
+              <div className="[font-family:var(--font-sans)] text-base leading-[25px] [color:var(--color-fg)]">
+                Guten Tag Frau Reuter,
+              </div>
+              <div className="[font-family:var(--font-sans)] text-base leading-[25px] [color:var(--color-fg)]">
+                bitte warten Sie damit noch. Der Förderantrag muss bei der BAFA eingegangen sein, bevor der erste Handwerker anfängt. Wird vorher begonnen, ist die Förderung für die Fenster verloren — auch rückwirkend lässt sich das nicht heilen.
+              </div>
+              <div className="[font-family:var(--font-sans)] text-base leading-[25px] [color:var(--color-fg)]">
+                Nach unserem Termin am 19. August stelle ich den Antrag. Sie dürfen aber jetzt schon Angebote einholen und einen Termin reservieren — das gilt noch nicht als Vorhabenbeginn.
+              </div>
+              <div className="[font-family:var(--font-sans)] text-base leading-[25px] whitespace-pre-wrap [color:var(--color-fg)]">
+                Freundliche Grüße<br />Katrin Held
+              </div>
+            </div>
+            <div className="w-[344px] shrink-0 flex flex-col pt-[28px] pr-[36px] pb-xl pl-xl gap-[26px] [background-color:var(--color-surface-sunken)] border-l border-l-solid border-l-border-subtle">
+              <div className="flex flex-col gap-sm">
+                <div className="[font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm [color:var(--color-fg-subtle)]">
+                  DER ENTWURF BASIERT AUF
+                </div>
+                <div className="flex items-start py-[10px] gap-[10px] border-b border-b-solid border-b-border">
+                  <svg width="15" height="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', marginTop: '1px' }}>
+                    <path d="M8 1.8l4.8 1.7v4c0 3-2 5.4-4.8 6.7C5.2 12.9 3.2 10.5 3.2 7.5v-4z" fill="none" stroke="var(--color-fg-muted)" strokeWidth="1.3" strokeLinejoin="round" />
+                  </svg>
+                  <div className="grow basis-[0%] flex flex-col gap-2xs">
+                    <div className="[font-family:var(--font-sans)] text-sm leading-[18px] [color:var(--color-fg)]">
+                      Vorhabenbeginn vor Antragstellung
+                    </div>
+                    <div className="[font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm [color:var(--color-fg-subtle)]">
+                      EBW 2.4 · REGELSTAND 2026-01
+                    </div>
+                  </div>
+                </div>
+                <div className="flex items-start pb-[10px] gap-[10px]">
+                  <svg width="15" height="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', marginTop: '1px' }}>
+                    <path d="M4 2h5l3 3v9H4z" fill="none" stroke="var(--color-fg-muted)" strokeWidth="1.3" strokeLinejoin="round" />
+                    <path d="M9 2v3h3" fill="none" stroke="var(--color-fg-muted)" strokeWidth="1.3" strokeLinejoin="round" />
+                  </svg>
+                  <div className="grow basis-[0%] flex flex-col gap-2xs">
+                    <div className="[font-family:var(--font-sans)] text-sm leading-[18px] [color:var(--color-fg)]">
+                      Beratungsvertrag Reuter · Terminplan
+                    </div>
+                    <div className="[font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm [color:var(--color-fg-subtle)]">
+                      S. 2 · ABSCHNITT 3
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col gap-sm">
+                <div className="[font-family:var(--font-mono)] text-[10px] tracking-caps leading-sm [color:var(--color-fg-subtle)]">
+                  AUS DEM FALL
+                </div>
+                <div className="flex items-baseline gap-sm">
+                  <div className="w-[78px] shrink-0 [font-family:var(--font-mono)] text-[10px] tracking-caps leading-md [color:var(--color-fg-subtle)]">
+                    TERMIN
+                  </div>
+                  <div className="grow basis-[0%] [font-family:var(--font-sans)] text-sm leading-[18px] [color:var(--color-fg)]">
+                    Mi 19.08., 10:00 · Vor-Ort
+                  </div>
+                </div>
+                <div className="flex items-baseline gap-sm">
+                  <div className="w-[78px] shrink-0 [font-family:var(--font-mono)] text-[10px] tracking-caps leading-md [color:var(--color-fg-subtle)]">
+                    ANTRAG
+                  </div>
+                  <div className="grow basis-[0%] [font-family:var(--font-sans)] text-sm leading-[18px] [color:var(--color-feedback-error)]">
+                    noch nicht gestellt
+                  </div>
+                </div>
+                <div className="flex items-baseline gap-sm">
+                  <div className="w-[78px] shrink-0 [font-family:var(--font-mono)] text-[10px] tracking-caps leading-md [color:var(--color-fg-subtle)]">
+                    KANAL
+                  </div>
+                  <div className="grow basis-[0%] [font-family:var(--font-sans)] text-sm leading-[18px] [color:var(--color-fg)]">
+                    Portal · Antwort geht auch per E-Mail raus
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center py-[20px] px-[36px] gap-sm border-t border-t-solid border-t-border">
+            <div className="flex items-center justify-center h-[42px] px-lg rounded-md [background-color:var(--color-brand)]">
+              <div className="[font-family:var(--font-sans)] text-[14px] leading-[18px] font-medium [color:var(--color-brand-fg)]">
+                Freigeben und senden
+              </div>
+            </div>
+            <div className="flex items-center justify-center h-[42px] px-[20px] rounded-md [background-color:var(--color-surface)] border border-solid [border-color:var(--color-border-strong)]">
+              <div className="[font-family:var(--font-sans)] text-[14px] leading-[18px] font-medium [color:var(--color-fg)]">
+                Bearbeiten
+              </div>
+            </div>
+            <div className="flex items-center justify-center h-[42px] px-[20px] rounded-md">
+              <div className="[font-family:var(--font-sans)] text-[14px] leading-[18px] [color:var(--color-fg-muted)]">
+                Selbst schreiben
+              </div>
+            </div>
+            <div className="grow basis-[0%]" />
+            <div className="flex items-center gap-xs w-[152px] h-[14px]" />
+          </div>
+        </div>
+      </div>
+    </div>
+  )
